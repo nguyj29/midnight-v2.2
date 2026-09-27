@@ -1,0 +1,10 @@
+p16 vs p18
+p18 vs p20
+p17 vs p19
+p16 vs p19
+p18 vs p17
+p19 vs p18
+p16 vs p20
+p20 vs p17
+p17 vs p16
+p20 vs p19
