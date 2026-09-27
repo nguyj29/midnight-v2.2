@@ -1,0 +1,20 @@
+# Listening notes — t2e8079b2
+
+**What it is.** A one-minute solo piece for a single struck/plucked, bell-like keyboard or mallet instrument (all in the `other` stem; no drums or bass). It sits in C major at a steady ~106 BPM in 4/4, but the harmony moves only every two bars, so it feels slower, more like a gentle ~53 BPM sway. The piece is essentially one 4-bar phrase, Fmaj7 → Cmaj9, repeated with small changes. It's quiet and intimate, more sketch than composition.
+
+**How it develops.**
+- 0:00–0:36 (bars 1–16): four statements of the phrase. Bar 1 hits a spread Fmaj7/Fmaj9 chord (F3–A3–C4–E5–C6) with a quick second hit on beat 1.5. Bar 2 is a small answering line (E4–F4–E4–D4). Bar 3 strikes Cmaj9 (C3–G3–B4–D), and bar 4 settles on B3–C4. The answers vary slightly (bars 8/16 repeat E5 in octaves; bar 6 rises F4–G4–C5).
+- 0:36–0:45 (bars 17–20): the one variation. Bar 17 is a busier, arpeggiated Fmaj7. Bars 18 and 20 have no new attacks and the level drops 15–20 dB, so the chord just rings. Broadband noise bursts appear at ~36 s and ~40 s. Bar 19 re-strikes Cmaj7.
+- 0:45–0:59 (bars 21–26): the original phrase returns. A last Fmaj7 in bar 25, then the F4–G4–C5 figure fades out (−47.6 dB). It ends on the IV chord with no return to C.
+
+**What's striking.** The voicings are lovely: maj7/maj9 colour on both chords, with wide spacing from C3 to C6. The two-chord IV–I rocking is soothing and hypnotic. The pause-and-ring in bars 17–20 is a nice breath, and ending on Fmaj7 leaves things floating.
+
+**What's weak or questionable.** Very little material: 3 distinct chords, and the phrase repeats nearly unchanged 5–6 times in 60 s. There's no melody beyond short answer figures. It sounds like a demo or loop rather than a finished track: −23.6 LUFS, true peak −8.2 dBTP, and CLAP's top production tag is "home demo quality" (z=+2.3). Timing is loose (mean |dev| 30 ms), which fits hand-played, rolled chords.
+
+**What I can't tell from the packet.** The instrument: marimba, electric piano, vibraphone, kalimba or a synth pluck. Whether the noise bursts at 36/40 s are intended. Whether the 1:00 length is the whole piece or a cut-down clip.
+
+**Packet reliability.** The beat grid is plausible (CV 0.56%, pulse clarity 0.93), but with no drums the 4/4 barring is inferred from one instrument. Transcription has 33% low-confidence notes, so G6/B6/F#6 tops are likely overtones and C#5 (bar 6) is likely an error. Trust the roots (F, C) and the form. madmom's "N" (bars 6/14/26) marks the sparse answer bars. The bar-18/20 dips look like ringing sustain in the spectrogram, not true silence.
+
+**Style tags (CLAP, weak evidence).** Marimba (z=+1.3), synth pads and electric piano, peaceful/hypnotic/calm, minimalist/ambient, home-demo/dry/lo-fi. This agrees with my reading: a soft, bell-like mallet or EP sketch.
+
+**In plain words.** It's like a small wooden or bell-toned instrument gently rocking between two warm, dreamy chords, over and over, like a lullaby or a music box. It's calm and pretty, with a soft, wistful glow. Halfway through it pauses and lets a chord hang in the air, then the same little pattern comes back and drifts away without really finishing. It's pleasant for a minute, but nothing new happens, so it could easily fade into the background.

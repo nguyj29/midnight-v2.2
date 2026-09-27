@@ -1,0 +1,36 @@
+id,dur_s,bpm,meter,key,mode,lufs,lra,crest,bandwidth_khz,true_peak,pulse,drums_frac,distinct_chords,chg_per_bar,same8,melody_frac,bright_hz,ons_s,sections,section_letters,gist,label,score
+t68bc6fa5,149.4,139.9,4,A minor,min,-12.9,5.0,14.5,20.0,-1.4,0.988,0.85,8,0.66,0.47,1.01,2674,2.4,17,5,"slick upbeat 140 BPM trance/EDM, filtered intro, drop, happy major lift, breakdown, fade",S1,98.0
+t8aca41eb,155.5,114.9,4,F major,maj,-11.0,5.0,16.6,20.4,2.0,0.921,0.85,4,0.53,0.78,0.87,2544,3.54,7,5,"cool broken-beat house groove, two-chord moody sway, one catchy hook mid-track, tight drums",S2,95.3
+t5fe4a915,155.2,89.4,4,F# minor,min,-12.0,12.1,16.3,20.0,0.5,0.963,0.86,7,0.91,0.16,0.98,838,2.98,7,4,"heavy dark wall of distorted guitars and drums, grinding riff, emotional turn, abrupt stop",S3,92.7
+t0d513ac8,101.4,90.3,3,Eb minor,min,-13.0,8.1,16.1,20.1,0.3,0.845,0.69,10,0.85,0.26,0.89,1587,3.46,7,4,"short dark restless breakbeat piece, drums-only break, moving minor chords, stuttering end",S4,90.0
+t77478144,231.9,115.9,4,D major,maj,-15.8,7.4,20.3,14.9,-0.3,0.972,0.04,6,0.71,0.43,1.01,904,3.38,16,10,"calm cinematic strings/pads, twinkling high piano, cello-like low voice, slow swell, 3:52, drumless",S5,87.3
+t9d4d0c39,182.9,84.6,4,B major,maj,-10.0,6.2,12.7,20.0,0.4,0.98,0.62,6,1.15,0.19,0.98,1367,4.16,10,4,"warm hypnotic downtempo, lush chords, sparkling arpeggio, drumless floating breaks, bright finale",S6,84.7
+tc8f1d0c8,118.9,89.1,4,D major,maj,-14.6,7.4,17.8,20.0,-0.3,0.862,0.84,7,0.93,0.31,1.0,468,2.45,6,5,"sparse dark 2 a.m. trip-hop, muffled e-piano, brief bright middle, near-silent drop, 1:59",S7,82.0
+tac555977,189.1,145.7,4,F# minor,min,-10.9,2.6,11.8,20.1,-2.5,0.905,0.81,10,0.75,0.63,0.99,1613,4.47,19,5,"fast (146) anime-action synth-rock, stop-time section, drops, cliffhanger ending, flat level",A1,74.0
+t9fb064e8,216.1,123.9,4,F major,maj,-12.3,2.8,13.4,20.0,-2.8,0.991,0.97,10,0.84,0.35,0.98,3299,4.92,12,7,"polished bittersweet club house 124, filter intro, riser breakdown, hook loop for 2.5 min",A2,70.3
+t94fd0413,135.8,69.9,4,A major,maj,-11.4,3.1,14.9,20.0,0.8,0.97,0.9,9,0.88,0.19,0.9,1948,3.76,5,4,"slow nodding hip-hop beat, 808, sudden bright key-change detour mid-track, abrupt stop",A3,66.7
+t3b9d70c1,194.3,139.9,4,C# minor,min,-9.8,5.6,12.8,16.5,1.0,0.883,0.79,8,0.83,0.57,0.96,1060,4.23,9,5,"loud fast (140) synth loop, video-game energy, bending lead, harsh over-loud master",A4,63.0
+tde35730e,126.9,70.1,3,E minor,min,-14.1,11.2,20.1,20.1,0.5,0.975,0.42,8,0.9,0.35,0.97,1321,1.66,6,4,"music-box opening swelling to a dramatic anime-cinematic climax with drums and guitar, 3/4",A5,59.3
+td231b399,117.7,101.1,4,Bb minor,min,-8.3,2.7,12.8,13.0,-0.6,0.987,0.96,9,1.0,0.0,1.0,992,4.52,8,4,"loud dusty sample-style hip-hop loop, three near-identical 12-bar rounds, fade",A6,55.7
+t21aaeadf,170.4,96.1,4,Bb major,maj,-14.1,10.1,17.4,20.1,0.2,0.799,0.46,12,0.85,0.48,0.94,1011,2.47,10,5,"relaxed late-night small-band groove (live feel), big bass, sax-like lead, drumless middle, fade",A7,52.0
+t61233098,128.0,120.0,4,F# minor,min,-13.0,3.1,16.5,20.1,0.1,0.971,0.38,8,0.92,0.57,1.0,1259,3.35,7,6,"trailer-style urgent string ostinato, epic but flat and repetitive, unresolved stop",B1,44.0
+ted20dc6f,123.0,85.4,4,C major,maj,-12.8,3.1,15.4,20.0,-0.9,0.975,0.89,13,1.2,0.38,0.96,2068,2.58,6,4,"dark tense arpeggiated rock riff, pounding drums, lurches into darker key, tacked-on fade",B2,33.3
+tb20bad3c,94.3,153.4,3,G major,maj,-12.5,5.0,15.2,20.1,-0.1,0.876,0.93,10,0.78,0.42,1.01,1231,3.38,14,6,"tiny (1:34) dreamy nostalgic-game keys piece in a triple sway, dark peak, abrupt fade",B3,22.7
+t8d54bfc3,134.2,122.7,3,C major,maj,-16.6,6.0,18.8,20.0,-1.6,0.991,0.0,5,0.32,0.54,0.96,839,3.38,12,5,"sunny rippling new-age 'focus' loop, drumless, triple meter, second half repeats first",B4,12.0
+t052c16ae,211.2,95.1,4,G minor,min,-9.2,3.5,11.7,20.0,0.6,0.994,0.79,8,0.93,0.16,1.0,1457,4.61,7,4,"dark velvety synth groove, odd 6-bar loop, dreamy lift halfway, stops abruptly",,
+t0a1b3f2b,173.1,90.0,4,C minor,min,-9.3,3.8,11.8,20.1,0.7,0.974,0.97,6,1.03,0.74,1.02,1418,3.39,6,6,"warm melancholy study-playlist hip-hop loop, deep bass, one 4-bar cycle throughout",,
+t2e8079b2,60.0,105.9,4,C major,maj,-23.6,8.3,19.5,20.0,-8.2,0.925,0.0,3,0.65,0.78,1.04,734,2.22,2,2,"one-minute solo marimba-like sketch rocking between two warm chords, home-demo feel",,
+t3c988896,189.2,150.0,4,E minor,min,-10.9,4.4,13.3,20.0,1.1,0.943,0.92,9,0.92,0.31,0.98,1004,3.53,16,6,"muffled-intro night hip-hop, 808, drifting darker chord turns, flat level, hard stop",,
+t47e13f42,132.6,125.0,4,A minor,min,-7.8,6.1,9.9,20.2,-0.0,0.805,0.48,3,0.91,0.92,1.0,792,7.6,9,3,"bleepy retro chiptune-ish game tune, Am-F only, build/drop/build, very loud, loop-point ending",,
+t511aa9f7,77.6,107.1,4,C# major,maj,-18.0,4.2,21.5,20.1,0.2,0.992,0.63,4,0.43,0.59,0.94,1233,3.52,6,5,"75-second chiming picked-guitar post-rock vignette over live drums, late step-up lift",,
+t6ce48b07,192.4,95.1,4,E minor,min,-11.4,2.8,14.1,20.1,0.5,0.938,0.89,12,1.08,0.43,1.0,1259,2.7,14,4,"wistful lo-fi hip-hop, sinks underwater then heavy half-time 808 stretch, hopeful ending",,
+t709e8ec1,127.6,137.1,3,Eb major,maj,-13.8,2.1,17.4,20.0,-0.1,0.982,0.01,11,1.1,0.29,1.01,752,4.3,12,8,"drumless lullaby waltz on plucked strings and keys, dusky to hopeful, flat and loopy",,
+t728b4b03,202.8,73.6,4,C# minor,min,-8.0,1.5,12.6,20.1,1.3,0.913,0.88,10,1.08,0.35,0.98,2477,2.55,8,5,"moody loud trap beat, sad glossy loop, late beat switch to brighter groove, hard stop",,
+t949d0c28,178.2,120.0,4,D minor,min,-11.8,2.6,16.1,19.9,1.1,0.989,0.97,7,1.06,0.38,0.98,2288,3.77,9,9,"smooth rooftop house groove, walking bass, catchy repeated phrase, filter moves, fade",,
+td5b1c789,89.5,112.0,4,C major,maj,-10.5,3.0,13.4,20.1,-0.0,0.994,1.0,9,0.81,0.09,1.02,1650,3.84,7,6,"cheerful 90-second anime-opening bounce, bright keys, busy bass, wistful turn, quick fade",,
+td816798a,150.4,98.9,4,D major,maj,-11.6,10.1,13.0,20.3,0.6,0.864,0.67,10,0.84,0.4,0.95,1766,2.77,7,3,"glossy future-bass drops, long muffled intro, bittersweet twist in the second drop, short",,
+td83c7b30,142.2,130.2,4,Ab major,maj,-13.4,4.2,16.0,20.1,0.4,0.883,0.79,8,0.6,0.74,1.0,1382,4.01,15,6,"80s night-drive synthwave, bubbling bass, singing gliding lead in the darker middle, abrupt stop",,
+te0e7d7c7,171.3,139.9,4,E major,maj,-11.8,6.1,15.6,20.1,1.7,0.944,0.8,14,0.77,0.27,0.97,2598,3.41,18,5,"bright heroic 140 BPM game-chase synth rush, shifting hopeful chords, big late lift",,
+ted929feb,192.0,100.0,4,D major,maj,-10.5,2.5,13.7,20.4,-0.4,0.989,0.67,6,1.0,0.34,0.99,849,4.01,12,8,"wistful sighing descending guitar loop, steady beat, twinkly piano, drumless breaks, final slowdown",,
+tee211b9a,227.9,92.1,4,F minor,min,-8.3,1.7,11.9,20.1,1.2,0.971,0.85,6,0.72,0.94,1.0,1586,3.62,9,7,"dark loud lo-fi trap beat, 808, stuttering chopped-voice lead, one 4-bar loop for 3.5 min",,
+tf4ea87ef,99.4,96.8,4,F major,maj,-15.4,6.2,18.2,11.2,-0.5,0.94,0.0,4,0.3,0.75,1.0,544,2.82,5,4,"drumless harp/music-box miniature in F, echoey, breathing swells, clean guitar-like lead, 1:39",,

@@ -1,0 +1,2 @@
+# drums stem — band-onset transcription (kick <150 Hz, snare 150-4k, hat >5k)
+# instrument  onset(bar:beat)  strength(0-1, used as velocity/confidence)

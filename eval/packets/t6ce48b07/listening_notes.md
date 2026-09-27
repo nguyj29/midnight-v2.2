@@ -1,0 +1,24 @@
+# Listening notes — t6ce48b07
+
+**What it is.** A 3:12 programmed beat in 4/4 at ~95 BPM (IBI CV 0.67%), centred on E minor / G major. A dense keys/synth chord layer ("other", ~4 voices) sits over drum-machine drums and a heavy low end, with a short lead motif (in "vocals") in some sections. It's lo-fi/boom-bap-leaning hip hop that switches to a half-time, trap-style groove in its middle and late sections.
+
+**How it develops.**
+- 0:00–0:05 (bars 1–2): a quiet, thin keys fragment (−30 dB), like a sample before the drop.
+- 0:05–1:06 (A1–B3): the full beat alternates two 4-bar blocks, **C–Em–C–Em** and **D–F#m–E–Bm**. The borrowed F#m and E major brighten the second block. Over C–Em a hook rises G3→G4, then falls F#–E–D–C–B (bars 11, 43).
+- 1:06–1:16 (C1): breakdown. The drums drop out and a low-pass sweep takes brightness from ~1250 to 377 Hz; the chords slide Am7–Bb–Cm7–Bbmaj9.
+- 1:16–1:46 (C2): a half-time groove (syncopated kick, snare on 3, hat rolls) with an octave-lower 808-style bass (E1/B0/C1). The loop Em–Cmaj7–Cm7–Bbmaj9 plays three times. The spectrogram suggests stutter edits.
+- 1:46–2:27 (A4–B5): the opening blocks return unchanged.
+- 2:27–3:05 (D1): a new, more major progression, D–Em–Am–C–D–Bm–G, over the half-time drums. There are pitch glides around 1–1.5 kHz (a sliding synth or pitched vocal chop).
+- 3:05–3:12 (C3): the drums and bass cut, and the filtered keys play D–Bm–G at −23 dB, stopping on G.
+
+**What's striking.** The harmony goes beyond a two-chord loop: the F#m/E-major lift, the chromatic C→Cm→Bb slide and the maj7/maj9 colours give each section its own mood. It's well paced for a beat, with a filter breakdown (1:06), a half-time switch (1:16) and a fresh progression (2:27). The bar-11 hook is simple and sticky.
+
+**What's weak or questionable.** Dynamics are nearly flat (LRA 2.8 LU; per-bar p10–p90 −15.3 to −12.6 dB), and the true peak is +0.5 dBTP. Bars 43–58 repeat bars 11–26 note-for-note. The lead is a narrow B3–D4 motif, not a developed melody. The groove is straight (swing 0.93), so the lo-fi feel comes from texture rather than swing.
+
+**What I can't tell from the packet.** Where the backbeat falls in A/B, because the kick and snare rows fire equally on all four beats (the double-trigger quirk). Also whether the chord layer is an electric piano, a sampled record or a synth, and whether the D1 glides are a synth or a vocal chop.
+
+**Packet reliability.** The grid is solid (pulse clarity 0.94, local BPM 94.7–95.4) and transcription is clean (5–7% low-confidence notes). The "guitar" stem is mostly bass bleed (F#2/D2 roots). In D1 the sub notes land in "other". A1 is mislabelled: the real intro is only 2 bars, and bars 3–6 are full groove.
+
+**Style tags (CLAP, weak evidence).** Stands out for lo-fi hip hop, boom bap, trap and trip-hop; drum machine, breakbeat, 808 bass, vocal chops and lead synth; lo-fi/vintage-analog production; nostalgic, dark and hypnotic moods. This agrees with my reading; "trap" fits the half-time sections.
+
+**In plain words.** A head-nodding, slightly wistful beat, made for late-night driving or studying. It settles into a warm looping groove with a small catchy phrase that brightens a little each time round. Midway, everything goes muffled and underwater, then snaps into a slower, heavier, stuttering version, which is the most exciting stretch. The last part turns gentler and more hopeful before stopping quietly. The volume never really rises or falls, so if the groove doesn't grab you, the repeats may drag.

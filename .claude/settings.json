@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./private/**)",
+      "Read(./tracks/**)",
+      "Read(~/blind-test-archive/**)"
+    ]
+  }
+}

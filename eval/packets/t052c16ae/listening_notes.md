@@ -1,0 +1,23 @@
+# Listening notes — t052c16ae
+
+**What it is.** A 3:31 loop-based electronic beat in G minor, 95 BPM, straight 4/4 (swing ratio 1.02, tempo CV 0.24%). It's built from a dense synth-pad/keys layer (the "other" stem, about 4 voices at a time), a punchy bass, and tight programmed drums: 16th-note hats, a kick on 1, 2 and the "and" of 3, and the snare backbeat on 2 and 4. There's also a faint high part in the "vocals" stem. It's dark and hypnotic, somewhere between synthwave and a lo-fi/trap beat, and loud and compressed throughout.
+
+**How it develops.**
+- 0:00–0:20 (bars 1–8): the pads play alone and swell from −33 to −21 dB. Brightness roughly doubles (690 → 1230 Hz), like a filter opening; the spectrogram shows a sweeping, zig-zag riser. The chords (Gm, Bb, Eb, Ab, F) preview the harmony.
+- 0:20–1:08 (bars 9–27): the full beat drops in at once (+10 dB). The main loop is **6 bars**: Gm7 | Gm7 | Bb→C | Bb | Ebmaj7 | Dm7. That's a natural-minor cycle with a Dorian C major, and the minor v (Dm7) drifts back to Gm without a strong pull. Bar 27 (1:06) is a one-bar stop where only the pads play Cm7. The packet's "C1" boundary at bar 24 is really the tail of the third loop cycle plus this stop.
+- 1:08–1:38 (bars 28–39): the loop plays twice more, unchanged in texture.
+- 1:38–2:11 (bars 40–52): a contrasting B section. The harmony shifts to a 4-bar C major | C6 | Abmaj9 | Absus2 cycle over an Ab bass, a bright chromatic-mediant move away from G minor. The drums drop out in bar 40 and bar 44, and in bars 41–43 they only hit the downbeat. The full groove returns in bar 45.
+- 2:11–2:54 (bars 53–69): a variant of the main loop, reharmonised as Gm | Ebmaj9 | Bb→F | Eb | Eb | Dm7. The Eb chords get more weight and the faint high part is more active (bars 56–58, 64).
+- 2:54–3:31 (bars 70–84): the C/Ab section returns with a longer 5-bar drumless breakdown (bars 71–75), then the beat comes back for bars 76–83. The track cuts off hard on Abmaj9 at 3:29 (the last bar is at −40 dB). It never goes back to G minor.
+
+**What's striking.** The 6-bar main loop is unusual in a genre dominated by 4- and 8-bar loops. The ear gets a slightly longer, unpredictable cycle. The switch to C major/Abmaj9 is a real change of colour, not just a filter move, and it lifts the mood. The drums are machine-tight (mean |dev| 6.7 ms, 79% within 10 ms). The stop bars (27, 40, 44, 71–75) give the arrangement some breath.
+
+**What's weak or questionable.** Dynamics are almost flat: every full bar sits between −9.5 and −11.5 dB (LRA 3.5 LU), so the "sections" differ in chords and drops, not in intensity. There's no clear lead melody. The skyline is chord-top figures that rock by minor thirds (motifs [3,0,0] and [−3,3,0]), with 55% leaps. The ending is an abrupt cut on an unresolved chord, which may feel unfinished. The master is hot (−9.2 LUFS, true peak +0.6 dBTP, a few clipped samples).
+
+**What I can't tell from the packet.** The pad timbre (analog-style synth, organ, or a sample?). The "other" chords regularly land about 0.14 beats late (@1.14, @1.39). That could be sidechain pumping, soft attacks, or a real syncopated figure. The faint high "vocals" part (A5–C6) could be vocal chops, a lead synth, or bleed.
+
+**Packet reliability.** Beat grid is excellent (pulse clarity 0.99, no tempo-octave switch). Chords agree well between madmom and the notes. The main-loop parsing and section roles are more reliable than the section letters (C1 is misplaced). The snare hits labelled on beat 1 are probably kick bleed into the snare band. Guitar and piano stems are silent.
+
+**Style tags (CLAP, weak evidence).** Synthwave, lo-fi hip hop, trap and EDM; synth pads, synth bass, organ, vocal chops; dark; vintage analog, lo-fi. These all fit my reading of a dark, pad-driven synth beat. "Vocal chops" may explain the faint high part.
+
+**In plain words.** A dark, moody electronic groove that settles into a steady head-nod and stays there. Thick, warm synth chords swell up out of nowhere, then a tight, punchy beat kicks in and loops round and round in a slightly hazy, melancholy way. Halfway through, the chords suddenly turn brighter and more dreamy, and the drums briefly fall away, which is the most memorable moment. There isn't really a tune to follow, and the volume hardly changes, so it works better as background mood than as something to sit and listen to. It also just stops rather than ending.

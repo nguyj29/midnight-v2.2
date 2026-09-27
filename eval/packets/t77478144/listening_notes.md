@@ -1,0 +1,26 @@
+# Listening notes — t77478144
+
+**What it is.** A 3:52 drumless, layered instrumental in D major at a steady ~116 BPM, 4/4 (115.9 BPM). The texture is a thick "other" layer (pads/strings/synth arpeggios, 3.6-voice polyphony, D1–E7) plus piano that keeps up a bell-like off-beat E6/F#6 figure, with an occasional low sustained voice in the "guitar" stem. There's no bass stem and no real drums. It reads as a cinematic, neoclassical/ambient piece built on a slow chord loop, bittersweet rather than dark.
+
+**How it develops.**
+- 0:00–0:21 (A1): a fade-in (bar 1 −33.6 dB → bar 9 −19.1 dB). Piano chimes E6–F#6 in 8ths over G | F#m | G | F#m–D. That's the core loop, IV–iii–(I), with E as a sustained colour tone (G6, F#m7, Dadd9).
+- 0:21–0:50 (B1, C1): full level. The loop extends to F#m–D–Em–D–A–G. C1 (bars 21–24) is a ii–V (Em7 → A) over a low E2/E3 pedal in the "guitar" stem, which reads as cello-like.
+- 0:50–1:27 (D1, B2): the densest stretch (−18 to −19 dB). It's a descending G–F#m–Em–D line, two bars per chord, with Gmaj7 and Dmaj7 colours (bars 31–42).
+- 1:27–2:00 (E1, F1): a lull (bars 47–48 drop to −25 dB). It sits on A and Em with sus2/sus4 voicings, then D and the only Bm in the track (bars 53–54, 1:48).
+- 2:00–2:46 (G1–C2): a gradual build to the climax. G2/I1/I2 (2:12–2:37) is the loudest and brightest part: the centroid rises from ~850 to 1480 Hz at bar 74, and the mel shows much more energy above 4 kHz. Bars 69–70 add a G natural over A (C#–E–G–B; tagged C#dim/C#m7b5), i.e. A7. It's the one real dominant-seventh tension in the piece, and it resolves to D/F#m at bar 71.
+- 2:46–3:23 (J1): back to the opening loop G | G | F#m | D, played 4 times at mid level.
+- 3:23–3:52 (G3, E2): it replays the F#m–Em–D–G descent and fades from −24 dB (bar 105) to −43 dB (bar 112). It ends on Asus4 (V), not D: an open, unresolved ending.
+
+**What's striking.** The harmony is strictly diatonic: the chromagram shows C, F, Bb, Ab and Eb essentially empty for the whole track. Colour comes from voicing (add9, maj7, 6 and sus chords are the most common fitted qualities), not from borrowed chords. The persistent E/F# upper pedal is visible as a constant band near 1.3 kHz in the mel. It gives the loop a shimmering, suspended quality. The build to 2:12–2:37 is handled with brightness and density rather than loudness alone, and the A7 at bars 69–70 is well placed.
+
+**What's weak or questionable.** It's very static. There are 6 distinct chords, a 0.7 chord-change rate, and the G–F#m–(Em)–D loop is essentially the whole piece. Dynamics are narrow once it's in: bars 9–105 sit within about 4 dB, apart from the dip at 1:35–1:40. There's no clear lead melody. The skyline is 71% leaps (mean 9.3 semitones), so it's arpeggio and pad tops rather than a tune. At nearly 4 minutes, it relies on texture to hold attention.
+
+**What I can't tell from the packet.** What the "other" layer really is (string section, synth pads, choir, arpeggiated synth), and whether the low "guitar" voice is cello, bass synth or bowed bass. Whether the high-frequency lift at the climax is strings, a choir, cymbal swells or distortion/shoegaze texture. Whether it's live or sequenced: tempo is machine-steady (IBI CV 0.29%) and onset rates cluster at exactly 3.87/s (8ths at 116 BPM), which suggests sequenced parts.
+
+**Packet reliability.** The beat grid and form are solid (pulse clarity 0.97). madmom roots agree well with the note-fitted chords and the chroma. Transcription confidence is good for "other" and piano (7% low-confidence) and weaker for the low "guitar" voice (23%). The drum stem is at −55 dB, so the drum-grid rows (e.g. bars 5–6) are bleed or noise, not drumming.
+
+**Style tags (CLAP, weak evidence).** These stand out: epic cinematic, neoclassical, piano and strings, orchestral film score; cello, choir, harp; bittersweet/melancholic/epic; dense layered, spacious reverb. That agrees with my reading of a cinematic, piano-and-strings loop piece without drums. "Cello" supports reading the low guitar-stem voice as a cello. "Shoegaze" (top raw tag) may reflect the dense, washy, reverbed wall at the climax.
+
+**In plain words.** Calm and pretty, with no drums: soft strings or pads, a twinkling high piano and a deep cello-like voice, like a film score or study music. It fades in, swells gently to a bright high point about two-thirds through, then settles and fades out without a final 'ending'. Lovely texture, but it cycles the same few chords for nearly four minutes with no tune to hum. Relaxing or dull depending on the listener.
+
+**Revision (packet v4).** Tempo and confidence numbers corrected after a pipeline bug fix (the fragment final bar is now dropped); the musical reading is unchanged.

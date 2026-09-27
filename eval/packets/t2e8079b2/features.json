@@ -1,0 +1,325 @@
+{
+ "id": "t2e8079b2",
+ "packet_version": 4,
+ "duration_s": 60.0,
+ "tempo_bpm_median": 105.9,
+ "tempo_cv_pct": 0.56,
+ "beats_per_bar_mode": 4,
+ "n_bars": 26,
+ "beat_method": "beat_this final0 + madmom DBN",
+ "pulse_clarity": 0.925,
+ "key_from_notes": [
+  [
+   0.8528974702439038,
+   "C major"
+  ],
+  [
+   0.7719775958157444,
+   "A minor"
+  ],
+  [
+   0.7613061138983345,
+   "E minor"
+  ]
+ ],
+ "key_from_chroma": [
+  [
+   0.9708456864972085,
+   "C major"
+  ],
+  [
+   0.7783921740747957,
+   "A minor"
+  ],
+  [
+   0.6859383714469179,
+   "F major"
+  ]
+ ],
+ "sections": [
+  {
+   "label": "A1",
+   "letter": "A",
+   "bar_start": 1,
+   "bar_end": 24,
+   "n_bars": 24,
+   "t_start": 0.0,
+   "t_end": 54.3,
+   "energy": "high",
+   "mean_db": -28.7,
+   "bpm": 106.0,
+   "stems": [
+    "O"
+   ],
+   "chords": "loop[F C F N C] x3.0",
+   "bright_hz": 729,
+   "onsets_per_s": 2.25
+  },
+  {
+   "label": "B1",
+   "letter": "B",
+   "bar_start": 25,
+   "bar_end": 26,
+   "n_bars": 2,
+   "t_start": 54.3,
+   "t_end": 58.9,
+   "energy": "low",
+   "mean_db": -41.2,
+   "bpm": 105.8,
+   "stems": [
+    "O"
+   ],
+   "chords": "F N",
+   "bright_hz": 793,
+   "onsets_per_s": 2.21
+  }
+ ],
+ "stems": {
+  "bass": {
+   "status": "silent",
+   "active_bar_frac": 0.0,
+   "n_notes": 0
+  },
+  "other": {
+   "status": "ok",
+   "active_bar_frac": 1.0,
+   "n_notes": 361,
+   "range": "C3-B6",
+   "median_pitch": "G4",
+   "mean_conf": 0.42,
+   "low_conf_frac": 0.33,
+   "vel_median": 113,
+   "vel_std": 20.7,
+   "mean_polyphony": 2.39,
+   "median_dur_beats": 0.41
+  },
+  "vocals": {
+   "status": "silent",
+   "active_bar_frac": 0.0,
+   "n_notes": 0
+  },
+  "guitar": {
+   "status": "silent",
+   "active_bar_frac": 0.0,
+   "n_notes": 0
+  },
+  "piano": {
+   "status": "silent",
+   "active_bar_frac": 0.0,
+   "n_notes": 0
+  }
+ },
+ "drums": {
+  "status": "silent",
+  "active_bar_frac": 0.0,
+  "hits": {}
+ },
+ "microtiming": {
+  "subdivision": {
+   "offbeat_onsets_nearer_16th": 80,
+   "nearer_triplet": 16,
+   "triplet_share": 0.17
+  },
+  "grid_steps_per_beat": 4,
+  "other": {
+   "n": 361,
+   "mean_ms": 3.4,
+   "mean_abs_ms": 30.3,
+   "sd_ms": 37.5,
+   "within_10ms_frac": 0.28,
+   "on_16th_grid_frac": 0.44
+  },
+  "swing": {
+   "offbeat_position": 0.55,
+   "swing_ratio": 1.22,
+   "n": 115
+  },
+  "swing16": {
+   "offbeat_position": 0.496,
+   "swing_ratio": 0.99
+  },
+  "drum_hits_by_beat[count,mean_strength]": {},
+  "tempo": {
+   "ibi_cv_pct": 0.56,
+   "bpm_drift_per_min": -0.33,
+   "local_bpm_p5_p95": [
+    104.9,
+    107.1
+   ]
+  }
+ },
+ "melody": {
+  "skyline_notes": 184,
+  "range": "C3-B6",
+  "p10_p90": "A3-G5",
+  "stepwise_frac": 0.45,
+  "leap_frac(>=4th)": 0.43,
+  "mean_abs_interval": 6.01,
+  "skyline_source_stems": {
+   "other": 184
+  },
+  "bars_with_melody": 27,
+  "bars_total": 26,
+  "top_motifs": [
+   {
+    "intervals": [
+     -2,
+     0,
+     -1
+    ],
+    "count": 4,
+    "bars": [
+     5,
+     11,
+     13,
+     23
+    ]
+   },
+   {
+    "intervals": [
+     0,
+     1,
+     0
+    ],
+    "count": 3,
+    "bars": [
+     2,
+     15,
+     22
+    ]
+   },
+   {
+    "intervals": [
+     1,
+     0,
+     -1
+    ],
+    "count": 3,
+    "bars": [
+     2,
+     10,
+     22
+    ]
+   },
+   {
+    "intervals": [
+     0,
+     -1,
+     1
+    ],
+    "count": 3,
+    "bars": [
+     6,
+     22,
+     24
+    ]
+   }
+  ]
+ },
+ "harmony": {
+  "chord_changes_per_bar": 0.65,
+  "distinct_chords": 3,
+  "most_common_chords": [
+   [
+    "C",
+    15
+   ],
+   [
+    "F",
+    9
+   ],
+   [
+    "N",
+    3
+   ]
+  ],
+  "same_chord_4_bars_later": 0.64,
+  "same_chord_8_bars_later": 0.78,
+  "top_4bar_progressions": [
+   [
+    "F | C | C | C",
+    3
+   ],
+   [
+    "C | C | F | N",
+    3
+   ],
+   [
+    "F | N | C | C",
+    2
+   ],
+   [
+    "C | C | F | C",
+    1
+   ]
+  ],
+  "note_derived_chord_qualities": [
+   [
+    "m",
+    7
+   ],
+   [
+    "maj",
+    4
+   ],
+   [
+    "maj7",
+    4
+   ],
+   [
+    "maj9",
+    3
+   ],
+   [
+    "5",
+    3
+   ],
+   [
+    "sus2",
+    2
+   ],
+   [
+    "m7",
+    2
+   ],
+   [
+    "sus4",
+    1
+   ]
+  ],
+  "note_derived_unknown_frac": 0.0
+ },
+ "quality": {
+  "codec": "mp3",
+  "sample_rate": 48000,
+  "channels": 2,
+  "bit_rate_kbps": 215,
+  "duration_s": 59.976,
+  "integrated_lufs": -23.6,
+  "loudness_range_lu": 8.3,
+  "true_peak_dbtp": -8.2,
+  "sample_peak_dbfs": -8.24,
+  "crest_db": 19.5,
+  "clipped_sample_frac": 0.0,
+  "bandwidth_hz": 20025,
+  "stereo_side_to_mid_db": -8.4,
+  "noise_floor_db": -51.9
+ },
+ "global": {
+  "loud_db_mean": -29.6,
+  "loud_db_p10_p90": [
+   -37.6,
+   -25.5
+  ],
+  "bright_hz_median": 734,
+  "onsets_per_s": 2.22,
+  "stem_share_db": {
+   "drums": -95.9,
+   "bass": -93.4,
+   "other": -23.7,
+   "vocals": -88.1,
+   "guitar": -96.5,
+   "piano": -91.0
+  }
+ }
+}

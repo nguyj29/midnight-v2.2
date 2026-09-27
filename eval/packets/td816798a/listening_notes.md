@@ -1,0 +1,23 @@
+# Listening notes — td816798a
+
+**What it is.** A short (2:30) synth-driven future-bass / melodic-EDM track at ~99 BPM, in straight-16th 4/4, centred on B minor. It's built from dense chopped synth chords (maj7/m9 voicings, polyphony 4.2) over a loud 808-style bass (−10 dBFS, the loudest stem) and tight programmed drums. It's organised around drops rather than a tune.
+
+**How it develops.**
+- 0:00–0:20 (A1): a filtered, dark intro (~900 Hz centroid) alternating E and Bm (IV–i, B Dorian). There are no real drums.
+- 0:20–0:42 (A2): the bass lands at bar 9 and the filter opens (1100 → 2000 Hz). A bass walk B–G#–G–C#–D (bars 14–17) sets up the drop.
+- 0:42–1:26 (B1): after a drumless pickup (bar 18), the drums hit at bar 19. It loops Bm→D | G with 16th-note synth stabs.
+- 1:26–1:38 (C1): breakdown. The bass leaves, the level falls ~11 dB, and a repeating hat figure builds over G → C/G → B/F# → F#m.
+- 1:38–2:17 (B2): second drop, brighter (2320 vs 1924 Hz): Bm9 Bm9 Gmaj9 **Dm9** | Bm9 Bm9 Gmaj9 F#m7. A higher line (B4–D5–F#5) tops bars 47–48 and 55–56.
+- 2:17–2:27 (C2): filtered Dmaj7 fading from −24 to −44 dB, then silence.
+
+**What's striking.** The chord colour. The borrowed D minor (F and C naturals over D, bars 44 and 52) gives the second drop a bittersweet lurch, and the C → B turn in the breakdown is a neat set-up. The arc works (filtered intro → opening → drop → breakdown → richer drop), and the second drop is brighter rather than just louder. The programming is tight (drums sd 14 ms, 92% within 15% of a 16th step).
+
+**What's weak or questionable.** The drops are 2–4-bar loops held for 16–18 bars, and there's no singable melody: the skyline is 62% leaps, and its motifs (+3, +4, −12) are chord arpeggios. The 42 s intro is over a quarter of the track, so the payoff is brief. The master is hot (−11.6 LUFS, true peak +0.6 dBTP).
+
+**What I can't tell from the packet.** Whether the B2 top line ("vocals" stem) is a vocal chop or a synth lead. The exact beat is also unclear: snare strength peaks on beat 3 (a half-time hint), but the kick and snare rows may double on 808 hits. Nor can I tell whether the C1 "hats" are a roll or a riser.
+
+**Packet reliability.** Tempo is solid (pulse clarity 0.86). Bar 19 (94.9 BPM) and the drumless opening bars are slips. Transcription is clean (6–13% low-confidence). B2's "mid" label is a tertile artefact: it's <1 dB below B1. The notes-based key (A major) is skewed by the E-chord intro, while bass and chords say B minor.
+
+**Style tags (CLAP, weak evidence).** Stands out for EDM, future bass, dubstep, synthwave; lead synth, 808/synth bass, pads, drum machine; vintage analog. This agrees with my reading. The clean harmonic lines in the spectrogram and the low low-confidence share also favour synths.
+
+**In plain words.** It starts muffled and moody, like a party heard through a wall. Then the bass kicks in, the sound opens up, and it drops into a bouncy, glossy wall of chopped synth chords. The chords feel warm and a little wistful, and the second drop has a bittersweet twist that is the best moment. There's no tune to hum, though: it's mood and pulse, and the loop can feel repetitive. It's over almost before it gets going.

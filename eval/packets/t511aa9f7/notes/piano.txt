@@ -1,0 +1,10 @@
+# piano stem — Basic Pitch transcription (ok)
+# note  onset(bar:beat)  dur(beats)  velocity  confidence
+C4    004:2.52   0.69  127  0.36
+Ab3   004:2.71   0.23  127  0.41
+C4    005:2.63   0.64  127  0.36
+C4    006:2.53   0.44  127  0.40
+Ab3   006:2.72   0.21  127  0.34
+C4    014:2.82   0.39  127  0.25
+Ab3   015:2.40   0.23  127  0.31
+Ab3   016:3.60   0.41  123  0.44

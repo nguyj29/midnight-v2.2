@@ -1,0 +1,21 @@
+# Listening notes — tf4ea87ef
+
+**What it is.** A short (1:39), drumless ambient/new-age miniature in F major, 4/4 at a rock-steady ~97 BPM (beat CV 0.24%, straight 8ths). A looping plucked arpeggio ("other" stem, 97% of bars) circles F–A–Bb under ringing high A5/F5 tones. A clean, reverberant lead ("guitar" stem) joins in the middle, and a sparse bass comes in only near the end. There is no percussion (drum stem −81 dB).
+
+**How it develops.**
+- 0:00–0:20 (A1, bars 1–8): the arpeggio alone, alternating a Bb-coloured bar (A→Bb neighbour) with a plain F bar. It turns to Dm at bar 7 and back to F at bar 8. Soft (−21 to −23 dB) and dark (centroid ~500 Hz).
+- 0:20–1:02 (B1, bars 9–25): the lead enters and the level jumps ~6 dB. Each bar opens with a bright burst (to ~8 kHz), and the levels alternate bar by bar (≈ −15 / −20 dB), so the music breathes in two-bar swells. The lead outlines the F triad (C4–F4–A4, passing G4) in long ringing notes, in 8-bar phrases with a D/G turn at bars 15 and 23.
+- 1:02–1:22 (C1, bars 26–33): the lead leaves by bar 28 and the brightness drops. This is the only harmonic motion in the piece: F – Bb (29) – F – Dm (31–32) – Bb (33). The bass plays Bb1 pedals and a chromatic walk down F2–E3–D3–C#3–C3 (bar 32).
+- 1:22–1:39 (A2/D1): the bare opening arpeggio returns, then settles on Dm (bar 39, −32 dB) and fades out.
+
+**What's striking.** The two-bar swells give the static harmony motion, and the Bb-over-F neighbour ostinato is a simple, effective colour. C1's Bb/Dm moves and the chromatic bass walk come as a welcome shift after 25 bars on one chord. Ending on Dm, the relative minor, leaves the piece open and wistful.
+
+**What's weak or questionable.** It's very static: F in 33 of 40 bars, with the same 4-bar pattern repeated 12 times. The lead outlines the triad rather than carrying a real tune. The ~11 kHz bandwidth and CLAP's "home demo quality" suggest a modest production.
+
+**What I can't tell from the packet.** The exact timbres: whether the arpeggio is harp, marimba, electric piano or a synth pluck, and whether the lead is clean guitar. Whether the per-bar bright bursts are strums or glissandi, and whether the high lines are a separate pad.
+
+**Packet reliability.** Beats, tempo and form are solid (pulse clarity 0.94). Transcription confidence is good (4–8% low-confidence notes). The from-notes "Aaug" labels are artefacts of F–A dyads (really F). The 64% leap stat counts arpeggio octave jumps. The piano and vocals stems are bleed.
+
+**Style tags (CLAP, weak evidence).** Stands out for ambient, downtempo, neoclassical; marimba, harp, clean electric guitar, bells; calm, dreamy, peaceful, bittersweet; spacious reverb, minimal sparse arrangement. This agrees with my reading. Clean harmonic lines, short plucked notes and the harp/marimba standouts favour a harp- or mallet-like pluck with a clean-guitar lead (moderate confidence).
+
+**In plain words.** A soft, dreamy little piece, like a music box or harp turning gently in a big echoey room. A rippling pattern goes round and round, and in the middle a clean, ringing voice joins as the music swells and relaxes like slow breathing. Near the end it turns a little wistful and drifts away without quite settling. It's peaceful and pretty, but so little changes that some listeners will hear it as pleasant wallpaper rather than something that holds them.

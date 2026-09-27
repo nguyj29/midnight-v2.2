@@ -1,0 +1,2 @@
+# bass stem — Basic Pitch transcription (silent)
+# note  onset(bar:beat)  dur(beats)  velocity  confidence

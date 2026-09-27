@@ -1,0 +1,26 @@
+# Listening notes — t709e8ec1
+
+**What it is.** A short (2:08), gentle, drumless and bassless instrumental in 3/4 (≈137 BPM beat, so about 46 bars a minute: a lilting waltz pulse). It's built from interlocking plucked or mallet-like layers plus piano. CLAP's standout instruments (marimba, harp, acoustic guitar) fit the clean, well-separated harmonic lines in the spectrogram. It is in C minor and moves to its relative major, Eb, by the end. It reads as new-age/neoclassical or game-soundtrack writing: warm, wistful and steady.
+
+**How it develops.**
+- 0:00–0:17 (A1): dark, low-register texture (brightness ~330 Hz). A 4-bar cycle Cm | Fm | Bb | Bb→Eb (i–iv–VII–III, or vi–ii–V–I in Eb) is played twice, with added 9ths and 6ths.
+- 0:17–0:24 (A2): a short Cm/Gm pause that touches G major (V of C minor).
+- 0:24–0:42 (B1): the same cycle, now with piano figures up at D5–Bb5 over the chords.
+- 0:42–1:03 (C1): a clear change of colour. Brightness jumps from ~490 to ~970 Hz, a guitar-stem layer enters around −20 dB doubling the chords, and the "other" layer drops ~10 dB. The cycle runs three more times and ends on G, pointing back to C minor.
+- 1:03–1:19 (A3/B2): a sparser interlude: Cm piano figures, then a Bb pedal with Bb7 and a passing E natural.
+- 1:19–1:24 (D1): the most dramatic harmony in the piece. Cm → D (D7, F# on top) → G is a harmonic-minor turn that sets up G as V.
+- 1:24–1:45 (E1/F1/D2): bright again. F1 plays Ebmaj7 → C7 (E natural; the packet's "Em7b5") → Bb → Fm → Bb → Eb, a turnaround where C7 leads into Fm. D2 repeats the D7→G turn with guitar added.
+- 1:45–2:01 (G1): the brightest section (~1230 Hz). The harmony settles into a plagal Ab↔Eb rocking, fully in Eb major.
+- 2:01–2:08 (H1): a fade, with a Db (C#) colour chord in bar 95 before the final Eb/G.
+
+**What's striking.** The harmonic arc: it starts in C minor, keeps borrowing major V chords (G, D7) for pull, and lands in the relative major, with a plagal Ab–Eb close. The chords are richly voiced (m9, add9, 6 and maj7 fitted in many bars). The arrangement varies by timbre and register, not volume: the jumps in brightness at 0:42, 1:24 and 1:45 mark the sections. Timing is tidy and straight (10% triplet-leaning off-beats, swing ratio 1.07), with a very steady tempo (CV 0.3%).
+
+**What's weak or questionable.** The dynamics are nearly flat (LRA 2.1 LU; per-bar p10–p90 only 3 dB). The Cm–Fm–Bb–Eb cycle fills about half the bars, so it may feel like a loop. The "melody" is mostly arpeggio and figuration (65% leaps ≥ a 4th). The only recurring motif is a small neighbour-note figure ([0,−2,+2]), not a singable tune. With no bass or drums it may feel thin or background-like.
+
+**What I can't tell from the packet.** The actual instruments: harp vs marimba vs nylon guitar vs a synth imitating them. Whether the brighter layer from 0:42 is guitar or harp. Whether the pulse is felt as a waltz or as a slow 6/8.
+
+**Packet reliability.** Good. The beat grid is very solid (pulse clarity 0.98) and chord roots agree between madmom and the notes. Low-confidence notes are only 8–9%. The drum and bass stems are genuinely silent; the low notes (down to Bb1) sit in piano/other. Key: the chroma says Eb and the notes say G minor, but the harmony is clearly C minor → Eb major.
+
+**Style tags (CLAP, weak evidence).** Piano and strings, new age, neoclassical. The standout tags are bossa nova, acoustic folk and solo piano, with marimba, harp and cello, and moods romantic, dreamy, melancholic and playful. These match my reading, except "bossa nova/latin", which doesn't fit a 3/4 drumless piece and probably reflects the plucked-guitar timbre.
+
+**In plain words.** A soft, rocking music-box kind of piece, all plucked strings and gentle keys with no drums, like the background to a quiet scene in a storybook game. It begins a little sad and dusky, then brightens as higher, sparkling layers come in. By the end it has drifted somewhere warmer and more hopeful before fading out. It's pretty and soothing, but it stays at one volume and circles the same few chords, so someone wanting a tune to hum or a big moment may drift off.

@@ -1,0 +1,17 @@
+# Answer key and any original-named audio: never commit (blind test)
+private/
+tracks/
+
+# Blind audio (not needed for Steps 3-6; stays local)
+blind/
+
+# Local environment, caches and model weights
+eval/.venv/
+eval/.bootstrap/
+eval/.uv/
+eval/.cache/
+__pycache__/
+*.pyc
+
+# Heavy per-track audio stems
+eval/packets/*/stems/
