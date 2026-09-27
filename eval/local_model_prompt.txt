@@ -1,0 +1,57 @@
+You are organising a music folder. There are 35 instrumental audio files, each named by a random id (for example t68bc6fa5.mp3). They are in two folders, labeled/ and unlabeled/ (possibly with other audio extensions). Sort them into three tier folders, S, A and B, in ranked order, using the list below.
+
+RULES
+1. Create three folders next to labeled/ and unlabeled/: S, A and B.
+2. For each line "N - <id>" under a tier, find the file whose name (without extension) is exactly <id>, in labeled/ or unlabeled/.
+3. COPY it (don't move or delete anything) into that tier's folder, renamed to "N - <id>.<ext>". If the line ends with "(predicted)", keep that in the name: "N - <id> (predicted).<ext>".
+4. N is the place inside the tier (1 = top). Keep the numbers exactly as listed; don't renumber, re-rank or skip.
+5. Never overwrite an existing file. If an id can't be found, don't guess: list it at the end as missing.
+6. When done, report the number of files in S, A and B (expected 11, 15 and 9), plus any missing ids.
+
+If you can run code, the simplest way is the script sort_into_tiers.py (same list built in):
+    python sort_into_tiers.py          (dry run)
+    python sort_into_tiers.py --go     (copies into tiers_sorted/S, A, B)
+
+THE LIST
+Tiers in order (1 = top of tier). (predicted) = placed by the model; the others are the user's own ranking.
+
+S tier:
+1 - t68bc6fa5
+2 - t8aca41eb
+3 - t5fe4a915
+4 - t0d513ac8
+5 - t052c16ae (predicted)
+6 - td816798a (predicted)
+7 - ted929feb (predicted)
+8 - t6ce48b07 (predicted)
+9 - t77478144
+10 - t9d4d0c39
+11 - tc8f1d0c8
+
+A tier:
+1 - t728b4b03 (predicted)
+2 - tee211b9a (predicted)
+3 - tac555977
+4 - t3c988896 (predicted)
+5 - t0a1b3f2b (predicted)
+6 - t511aa9f7 (predicted)
+7 - td83c7b30 (predicted)
+8 - t949d0c28 (predicted)
+9 - t9fb064e8
+10 - t94fd0413
+11 - t47e13f42 (predicted)
+12 - t3b9d70c1
+13 - tde35730e
+14 - td231b399
+15 - t21aaeadf
+
+B tier:
+1 - t61233098
+2 - te0e7d7c7 (predicted)
+3 - td5b1c789 (predicted)
+4 - ted20dc6f
+5 - tf4ea87ef (predicted)
+6 - tb20bad3c
+7 - t709e8ec1 (predicted)
+8 - t8d54bfc3
+9 - t2e8079b2 (predicted)
