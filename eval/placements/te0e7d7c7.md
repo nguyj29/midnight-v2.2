@@ -21,4 +21,4 @@
 
 **Rationale (two sentences).** A bright, heroic 140-speed game-chase rush with a hard band entry and a late lift, but no breakdown and a mostly flat, repeated second half, so it belongs with the energetic one-level action tracks in A. Its cheerful, slightly cute brightness puts it just under the darker action pieces A1 and A4, with some risk of sliding toward B if the user hears it as sweet.
 
-**Review (main session).** Reasoning checked against the taste profile and the anchors' notes; accepted as written. Final: between A4 and A5, score 61.1, 80% range 47–70.
+**Review (main session).** Checked against the taste profile and the anchors' notes; the neighbour verdicts match the slot (the track above is preferred, the one below isn't). Where other unlabelled tracks share this slot, the order inside it comes from side-by-side comparisons (`tiebreaks.md`). Final: between A4 and A5, score 61.1, 80% range 47–70.

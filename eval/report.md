@@ -23,15 +23,15 @@ One line per track, in the combined order (★ = your label, ◇ = predicted):
 | S5 | t77478144 | ★ | calm, cinematic strings and twinkling piano, slow swell, no drums |
 | S6 | t9d4d0c39 | ★ | warm, hypnotic downtempo with a sparkling pattern and floating drumless breaks |
 | S7 | tc8f1d0c8 | ★ | sparse, dark 2 a.m. trip-hop, muffled keys, a near-silent drop |
-| S8 | t052c16ae | ◇ | dark, velvety synth groove, hazy and hypnotic, a dreamy lift halfway, abrupt stop |
-| S9 | td816798a | ◇ | glossy future-bass drops after a long muffled intro, bittersweet twist in the second drop |
+| S8 | td816798a | ◇ | glossy future-bass drops after a long muffled intro, bittersweet twist in the second drop |
+| S9 | t052c16ae | ◇ | dark, velvety synth groove, hazy and hypnotic, a dreamy lift halfway, abrupt stop |
 | A1 | tac555977 | ★ | fast anime-action synth-rock, exciting but one level throughout |
 | A2 | td83c7b30 | ◇ | 80s night-drive synthwave, bubbling bass, a singing lead in the darker middle |
 | A3 | t9fb064e8 | ★ | polished, bittersweet club house: one hook loop for 2.5 minutes |
 | A4 | t6ce48b07 | ◇ | wistful lo-fi hip-hop that sinks "underwater", then a heavy slow 808 stretch |
-| A5 | t728b4b03 | ◇ | sad, glossy trap beat, very loud and even, with a late switch to a brighter groove |
-| A6 | t3c988896 | ◇ | muffled-intro night hip-hop, 808, chords drifting darker |
-| A7 | ted929feb | ◇ | wistful, sighing guitar loop over a steady beat, twinkly piano, a slowdown at the end |
+| A5 | ted929feb | ◇ | wistful, sighing guitar loop over a steady beat, twinkly piano, a slowdown at the end |
+| A6 | t728b4b03 | ◇ | sad, glossy trap beat, very loud and even, with a late switch to a brighter groove |
+| A7 | t3c988896 | ◇ | muffled-intro night hip-hop, 808, chords drifting darker |
 | A8 | t949d0c28 | ◇ | smooth "rooftop" house, walking bass, catchy repeated phrase |
 | A9 | t94fd0413 | ★ | slow, nodding hip-hop beat with a sudden bright detour mid-track |
 | A10 | t47e13f42 | ◇ | bleepy retro chiptune-style game tune: build, drop, build; very loud |
@@ -53,8 +53,8 @@ One line per track, in the combined order (★ = your label, ◇ = predicted):
 | B8 | t2e8079b2 | ◇ | one-minute solo marimba-like sketch rocking between two warm chords |
 
 ## Playlist names (one word each, from the sound only)
-- **Afterhours**: the cool, dark grooves (S2, S6, S7, S8, A2, A4–A7)
-- **Surge**: the drops and crash-ins (S1, S3, S4, S9, A1, A10, A12)
+- **Afterhours**: the cool, dark grooves (S2, S6, S7, S9, A2, A4–A7)
+- **Surge**: the drops and crash-ins (S1, S3, S4, S8, A1, A10, A12)
 - **Driftwood**: the drumless, gentle miniatures (S5, B5–B8)
 - **Nightdrive**: synthwave and game rushes (A2, A11, A12, A10)
 
@@ -102,12 +102,13 @@ Orange = predictions with 80% ranges.
 
 ## Predictions and how far to trust them
 
-- **S (2):** t052c16ae, td816798a, both just under your S7 and both low-confidence S/A boundary calls.
+- **S (2):** td816798a, then t052c16ae, both just under your S7 and both low-confidence S/A boundary calls.
 - **A (12):** from td83c7b30 (just under A1) down to t511aa9f7 (just above A7). Most are moody beats and grooves
   that have the right mood but not the arrival or breathing of your S tracks.
 - **B (4):** td5b1c789 (cheerful anime bounce, just above B1) and three sweet, drumless miniatures at the very
   bottom.
-- Per-track reasoning, with comparisons against the anchors and neighbours: `placements/<id>.md`.
+- Per-track reasoning, with comparisons against the anchors and neighbours: `placements/<id>.md`. Where
+  several unlabelled tracks share a slot, they were compared with each other pair by pair: `placements/tiebreaks.md`.
 
 **Calibration (from validation, `validation/README.md`).** Holding each of your 18 tracks out and placing it from
 the other 17: round 1 put 78% in the right tier, 100% within one tier, rank correlation 0.93, and 78% of true

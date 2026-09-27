@@ -20,4 +20,4 @@
 
 **Rationale (two sentences).** A drumless, dreamy music-box loop that stays gentle and pretty with no arrival, much like the bottom-ranked sunny "focus" track. It edges above that one because it is dimmer, breathes in small swells and ends wistfully, but it lacks B3's beat and darker peak.
 
-**Review (main session).** Reasoning checked against the taste profile and the anchors' notes; tie-break within the B3–B4 slot: 17.4 above t709e8ec1 (17.0), as the subagents scored them. Final: between B3 and B4, score 17.4, 80% range 12–36.
+**Review (main session).** Checked against the taste profile and the anchors' notes; the neighbour verdicts match the slot (the track above is preferred, the one below isn't). Where other unlabelled tracks share this slot, the order inside it comes from side-by-side comparisons (`tiebreaks.md`). Final: between B3 and B4, score 17.4, 80% range 12–36.

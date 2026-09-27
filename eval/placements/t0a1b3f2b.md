@@ -21,4 +21,4 @@
 
 **Rationale (two sentences).** A warm, melancholy study-style hip-hop beat, closest in kind to A6 and A3, which puts it in the middle tier for loop beats rather than with the sparse, atmospheric S7. Its single four-bar cycle runs almost three minutes with only small dropouts and no real arrival or change, so it sits at the low end of A, just below its near twin A6.
 
-**Review (main session).** Reasoning checked against the taste profile and the anchors' notes; tie-break within the A6–A7 slot: 53.9, second of three. Final: between A6 and A7, score 53.9, 80% range 44–64.
+**Review (main session).** Checked against the taste profile and the anchors' notes; the neighbour verdicts match the slot (the track above is preferred, the one below isn't). Where other unlabelled tracks share this slot, the order inside it comes from side-by-side comparisons (`tiebreaks.md`). Final: between A6 and A7, score 53.9, 80% range 44–64.

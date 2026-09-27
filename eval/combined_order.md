@@ -9,15 +9,15 @@
 | S | 5 | t77478144 | 87.3 | labelled S5 |
 | S | 6 | t9d4d0c39 | 84.7 | labelled S6 |
 | S | 7 | tc8f1d0c8 | 82.0 | labelled S7 |
-| S | 8 | t052c16ae | 80.5 | predicted (between S7 and A1 in S, 80% 66–90) |
-| S | 9 | td816798a | 79.5 | predicted (between S7 and A1 in S, 80% 66–90) |
+| S | 8 | td816798a | 80.5 | predicted (between S7 and A1 in S, 80% 66–90) |
+| S | 9 | t052c16ae | 79.5 | predicted (between S7 and A1 in S, 80% 66–90) |
 | A | 1 | tac555977 | 74.0 | labelled A1 |
 | A | 2 | td83c7b30 | 72.2 | predicted (between A1 and A2, 80% 60–82) |
 | A | 3 | t9fb064e8 | 70.3 | labelled A2 |
 | A | 4 | t6ce48b07 | 69.8 | predicted (between A2 and A3, 80% 58–80) |
-| A | 5 | t728b4b03 | 69.2 | predicted (between A2 and A3, 80% 57–78) |
-| A | 6 | t3c988896 | 68.5 | predicted (between A2 and A3, 80% 57–78) |
-| A | 7 | ted929feb | 67.9 | predicted (between A2 and A3, 80% 58–80) |
+| A | 5 | ted929feb | 69.2 | predicted (between A2 and A3, 80% 58–80) |
+| A | 6 | t728b4b03 | 68.5 | predicted (between A2 and A3, 80% 57–78) |
+| A | 7 | t3c988896 | 67.9 | predicted (between A2 and A3, 80% 57–78) |
 | A | 8 | t949d0c28 | 67.3 | predicted (between A2 and A3, 80% 57–78) |
 | A | 9 | t94fd0413 | 66.7 | labelled A3 |
 | A | 10 | t47e13f42 | 64.8 | predicted (between A3 and A4, 80% 54–76) |

@@ -21,4 +21,4 @@
 
 **Rationale (two sentences).** A dark, wistful lo-fi-trap beat with the cool late-night mood the user likes, but it runs one short pattern for three and a half minutes, with flat level and only one brief drumless drop. That puts it with the other loop beats in lower A: just below the tighter, shorter dusty loop (A6) and just above the looser live-band groove (A7).
 
-**Review (main session).** Reasoning checked against the taste profile and the anchors' notes; tie-break within the A6–A7 slot: 54.6, first of three (darkest, coolest mood). Final: between A6 and A7, score 54.6, 80% range 45–66.
+**Review (main session).** Checked against the taste profile and the anchors' notes; the neighbour verdicts match the slot (the track above is preferred, the one below isn't). Where other unlabelled tracks share this slot, the order inside it comes from side-by-side comparisons (`tiebreaks.md`). Final: between A6 and A7, score 54.6, 80% range 45–66.

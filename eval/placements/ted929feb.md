@@ -22,4 +22,4 @@
 
 **Rationale (two sentences).** A wistful, nostalgic guitar-and-beat loop with drumless breathers fits the user's liking for melancholy, immersive moods, but it has no big arrival and its level barely moves. The repeated sections are the flat-loop sound that keeps hip-hop-style beats in A, so it lands mid-A between A2 and A3, with room to rise if the mood wins out.
 
-**Review (main session).** Reasoning checked against the taste profile and the anchors' notes; tie-break within the A2–A3 slot: 67.9, fourth of five (sweet-colour risk). Final: between A2 and A3, score 67.9, 80% range 58–80.
+**Review (main session).** Checked against the taste profile and the anchors' notes; the neighbour verdicts match the slot (the track above is preferred, the one below isn't). Where other unlabelled tracks share this slot, the order inside it comes from side-by-side comparisons (`tiebreaks.md`). Final: between A2 and A3, score 69.2, 80% range 58–80.
