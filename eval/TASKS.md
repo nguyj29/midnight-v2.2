@@ -16,39 +16,39 @@
 
 ## Step 3 — Taste profile
 - [x] Read labels.csv (notes column empty for all tracks)
-- [ ] Write taste_profile.md
-- [ ] Loudness/mastering/audio-quality confound check
+- [x] Write taste_profile.md
+- [x] Loudness/mastering/audio-quality confound check
 - [x] Anchored scores in labeled_scores.csv
 
 ## Step 4 — Validation
-- [ ] Round 1 leave-one-out validation by judgment
-- [ ] Revise taste profile once
-- [ ] Round 2 validation; report both
+- [x] Round 1 leave-one-out validation by judgment
+- [x] Revise taste profile once
+- [x] Round 2 validation; report both
 
 ## Step 5 — Prediction
-- [ ] One subagent per unlabeled track, anchor comparisons
-- [ ] Review each subagent's reasoning; reconcile with cross-checks
-- [ ] predictions.csv
+- [x] One subagent per unlabeled track, anchor comparisons
+- [x] Review each subagent's reasoning; reconcile with cross-checks
+- [x] predictions.csv
 
 ## Step 6 — Report
-- [ ] scores.png
-- [ ] report.md
-- [ ] README.md explains how pieces fit
-- [ ] `python eval/run.py` runs clean
+- [x] scores.png
+- [x] report.md
+- [x] README.md explains how pieces fit
+- [ ] `python eval/run.py` runs clean (needs the local venv + audio; not possible in the cloud session: re-run locally)
 
 ## Found along the way
-- [ ] `laion/larger_clap_music` gives collapsed embeddings under transformers 5.17 (audio-audio sim 0.98, logit scale 0.027); switched to `laion/larger_clap_music_and_speech` (verified sane). Record in README.
-- [ ] Per-track placement reasoning saved as eval/placements/<id>.md (user asked for analysis of why each track is placed where it is)
-- [ ] After predictions.csv is locked: add "Artist/track guesses" section to report.md (sounds-like per track; specific guesses only where the music points to one; not used in any placement). Agreed with user 2026-09-27.
+- [x] `laion/larger_clap_music` gives collapsed embeddings under transformers 5.17 (audio-audio sim 0.98, logit scale 0.027); switched to `laion/larger_clap_music_and_speech` (verified sane). Record in README.
+- [x] Per-track placement reasoning saved as eval/placements/<id>.md (user asked for analysis of why each track is placed where it is)
+- [x] After predictions.csv is locked: add "Artist/track guesses" section to report.md (sounds-like per track; specific guesses only where the music points to one; not used in any placement). Agreed with user 2026-09-27.
 - [x] Listening notes split across subagents at user's request (brief: eval/tools/NOTES_BRIEF.md); review each
 - [x] Code review of packet pipeline (subagent) -> act on confirmed findings
 - [x] Chart script eval/tools/plot_scores.py (subagent; reviewed sample render)
-- [ ] plot_scores.py: compact "between A2 and A3" position labels (e.g. "A2–A3") once real predictions exist
+- [x] (kept full position text; readable at this size) plot_scores.py: compact "between A2 and A3" position labels (e.g. "A2–A3") once real predictions exist
 - [x] t61233098 notes reviewed (subagent) — chord cycle verified against chords.md
 - [x] README limitations: key-from-notes can be skewed by a repeated pedal/ostinato note (t61233098: C#m vs true F#m); section boundaries can sit one bar off true phrase lines
 - [x] t68bc6fa5 notes reviewed (subagent) — Am–F–E loop verified
 - [x] BUG (found by notes subagent): header tempo from median of 20 ms-quantised beat intervals (140 BPM read as 142.9). Fixed: tempo from smoothed grid.
-- [ ] After batch: rerun analysis stage for all packets (cached stems/notes/chords reused) and correct tempo mentions in notes written so far (t3b9d70c1, t68bc6fa5, t5fe4a915)
+- [x] (done in session 1; notes were re-checked against v4) After batch: rerun analysis stage for all packets (cached stems/notes/chords reused) and correct tempo mentions in notes written so far (t3b9d70c1, t68bc6fa5, t5fe4a915)
 - [x] Blindness guard: label-reading LOO models only run once all 35 tracks have listening_notes.md (raised by README subagent)
 - [x] Validation/placement tooling eval/tools/placement_kit.py (subagent; verified anchors/slot-score/score-validation on synthetic labels)
 - [x] t77478144 notes reviewed (subagent) — G/D/F#m/Em loop and A7 at bars 69–70 verified
@@ -57,7 +57,7 @@
 - [x] Re-check the 7 notes written on v3 packets against v4 numbers (confidence %, tempo, drum timing, any inference drawn from them): t0d513ac8 t21aaeadf t3b9d70c1 t5fe4a915 t61233098 t68bc6fa5 t77478144
 - [x] t8aca41eb notes reviewed (subagent) — Bb↔Am loop verified
 - [x] README limitations: section mean dB understates fades (t8aca41eb E1); a stem can be "active" by level from bleed while having 0 notes
-- [ ] The ranker has no music-theory knowledge (user, 2026-09-27): taste profile + report must explain in listener terms (mood, energy, catchiness, build, variety, sound quality); theory only as evidence for audible effects. Add "In plain words" to notes written before this (8 tracks).
+- [x] The ranker has no music-theory knowledge (user, 2026-09-27): taste profile + report must explain in listener terms (mood, energy, catchiness, build, variety, sound quality); theory only as evidence for audible effects. Add "In plain words" to notes written before this (8 tracks).
 - [x] t8d54bfc3 notes reviewed (subagent) — mostly-C harmony verified; fixed score '@4 in 3/4' display (early notes before next downbeat); needs analysis rerun at end
 - [x] t94fd0413 notes reviewed (subagent) — beat-3 drum gap checked in raw hits (real, flagged uncertain); fixed '5.00' labels for hits just before a downbeat
 - [x] t9d4d0c39 notes reviewed (subagent); section energy label now absolute (dB below track max: high >-4, mid >-10, low) instead of tertiles — needs analysis rerun
@@ -84,10 +84,12 @@
 - [x] td816798a notes reviewed (subagent)
 - [x] td83c7b30 notes reviewed (subagent); local grid slips flagged
 - [x] te0e7d7c7 notes reviewed (subagent)
-- [ ] report.md: playlist name ideas must be ONE WORD each (user, 2026-09-27)
+- [x] report.md: playlist name ideas must be ONE WORD each (user, 2026-09-27)
 - [x] ted929feb notes reviewed (subagent); real ritardando at end
 - [x] On reading labels: ONLY create empty folders eval/tiers/S, eval/tiers/A, eval/tiers/B (user: no categorizing yet)
-- [ ] Only once the full combined order exists (labeled + predictions slotted in): fill eval/tiers/{S,A,B} with 'N - <id>' entries (symlinks to packets), predicted ones marked '(predicted)'
+- [x] Only once the full combined order exists (labeled + predictions slotted in): fill eval/tiers/{S,A,B} with 'N - <id>' entries (symlinks to packets), predicted ones marked '(predicted)'
 - [x] tee211b9a notes reviewed (subagent)
 - [x] tf4ea87ef notes reviewed (subagent) — all 35 tracks have listening notes
 - [x] Handoff for a cloud session written: eval/HANDOFF.md
+- [x] Prediction subagents ran on Opus (user allowed it, 2026-09-27) instead of Sonnet
+- [ ] When the user's labeled/unlabeled audio folders arrive: re-run tools/assemble.py so tiers/ links point to the MP3s

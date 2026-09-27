@@ -1,3 +1,9 @@
+# Session 2 update (2026-09-27, cloud)
+Steps 3–6 are done: taste_profile.md (v2), validation/ (2 rounds), placements/ (17, Opus subagents, reviewed),
+predictions.csv, combined_order.md, tiers/, scores.png, report.md, README updated. Open: re-run `python eval/run.py`
+locally (needs venv + audio), and re-run `tools/assemble.py` once the audio folders exist so tiers/ links point to
+MP3s. The session 1 notes below are kept for history.
+
 # Handoff — state at 2026-09-27 ~03:50 (session 1 → session 2)
 
 Read this first, then `TASKS.md` (checklist, with open items) and `README.md` (pipeline, tools, limitations).

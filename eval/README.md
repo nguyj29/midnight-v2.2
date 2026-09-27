@@ -146,17 +146,35 @@ Tiers map to fixed bands on a 0–100 scale, with 8-point gaps between tiers:
 Inside a tier, ranks are evenly spaced from the top of the band to the bottom; a tier with one track sits mid-band.
 `tier_of(score)` maps a score back to a tier using the gap midpoints: S ≥ 78, A ≥ 48, otherwise B.
 
-## Downstream artefacts (to be filled in)
+## Downstream artefacts (Steps 3–6) and how they fit
 
-| file | status | contents |
-|---|---|---|
-| `taste_profile.md` | _pending_ | What the user values or dislikes, derived from labels + listening notes, including the loudness/mastering confound check. |
-| `labeled_scores.csv` | _pending_ | Anchored scores for the labelled tracks (`lib/scale.py`). |
-| `validation/` | _pending_ | Round 1 leave-one-out validation by judgment, one profile revision, round 2. |
-| `placements/<id>.md` | _pending_ | Per-track placement reasoning for the unlabelled tracks (anchor comparisons, reconciled with the cross-checks). |
-| `predictions.csv` | _pending_ | Final score and tier per unlabelled track. |
-| `report.md` | _pending_ | Method, results, uncertainty, and a sounds-like section added after predictions are locked (not used in placement). |
-| `scores.png` | _pending_ | Chart of labelled and predicted scores. |
+```
+labels.csv ─► lib/scale.py ─► labeled_scores.csv (anchored 0–100 scale)
+     │                                   │
+listening_notes.md ×18 + track_table ─► taste_profile.md (v1) ─► validation/round1 ─► taste_profile.md (v2) ─► validation/round2
+                                                                                        │
+tools/PLACEMENT_BRIEF.md + anchors (placement_kit.py) ─► 17 subagents ─► placements/<id>.md
+                                                                                        │ reviewed, ties broken
+                                                         placements/placements.jsonl ─► tools/assemble.py
+                                                                                        ├─► predictions.csv
+                                                                                        ├─► combined_order.md
+                                                                                        └─► tiers/{S,A,B}/  ("N - <id>" symlinks)
+labeled_scores.csv + predictions.csv ─► tools/plot_scores.py ─► scores.png ─► report.md
+```
+
+| file | contents |
+|---|---|
+| `taste_profile.md` | What the user values, in listener terms, with evidence tracks and strength marks, plus the loudness/quality confound check. Version 2; v1 and v2 are copied in `validation/`. |
+| `labeled_scores.csv` | Anchored scores for the labelled tracks (`lib/scale.py`). |
+| `validation/` | Leave-one-out placement by judgement: `round{1,2}.csv`, metrics from `placement_kit.py score-validation`, and a README with the revision and the leakage disclosure. |
+| `tools/PLACEMENT_BRIEF.md` | The brief each prediction subagent followed (one per unlabelled track). |
+| `placements/<id>.md` | Per-track reasoning: comparisons with the six anchors and the neighbours, why here, uncertainty, and a main-session review line. `placements.jsonl` holds the reviewed final values. |
+| `predictions.csv` | id, predicted_tier, estimated_rank_within_tier (among unlabelled tracks in that tier), position, score, 80% range, confidence, top-3 CLAP neighbours, ridge-model tier, two-sentence rationale. |
+| `combined_order.md`, `tiers/` | Labelled and predicted tracks in one order. `tiers/<T>/N - <id>[ (predicted)]` are relative symlinks to the track's MP3 when the audio folders exist (`../labeled`, `../unlabeled` or `blind/…`), otherwise to its packet. Rebuild with `python3 eval/tools/assemble.py eval/placements/placements.jsonl`. |
+| `scores.png` | Every track's score with 80% error bars on the shaded tier bands (`tools/plot_scores.py`). |
+| `report.md` | Plain-language results for the user. |
+
+The steps above need only `numpy scipy matplotlib` (no venv or audio).
 
 ## Known limitations
 
