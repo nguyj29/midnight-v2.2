@@ -35,3 +35,5 @@
 **Review (main session).** Verdict table checked: it flips once down the user's order, and the slot sits at the flip. Where another unlabelled track shares the slot, or the score tied a labelled track, the order comes from side-by-side comparisons (`tiebreaks.md`). Final: between A2 and A3, score 69.6, 80% range 58–80.
 
 **Calibrated (final).** This file's slot is the raw side-by-side result. The side-by-side order of all 17 is kept, and positions are re-spread to match the user's own 18 (random 50/50 split; see `report.md`). Final: between S5 and S6 (S), score 86.6, 80% range 75.0–97.0.
+
+**Final (blind pairwise tournament).** This file's side-by-side reasoning was superseded by the blind tournament over all 595 pairs (`pairwise/summary.md`). Final: between S4 and S5 (S), score 88.7, 80% range 85.7–91.7, confidence high.

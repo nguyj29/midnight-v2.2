@@ -1,26 +1,26 @@
 # Blind pairwise tournament: summary
 
-- verdicts: 440 (of 595 pairs)
-- judge agreement with the user on labelled-vs-labelled pairs: 83/102 = 81% (cross-tier pairs only: 70/71 = 99%)
-- Spearman between blind strength and the user's order (18 labelled): 0.79
-- predicted tiers for the 17: S 7 / A 6 / B 4 (a random 50/50 split would give about 7 / 7 / 4)
+- verdicts: 595 (of 595 pairs)
+- judge agreement with the user on labelled-vs-labelled pairs: 119/153 = 78% (cross-tier pairs only: 99/105 = 94%)
+- Spearman between blind strength and the user's order (18 labelled): 0.76
+- predicted tiers for the 17: S 4 / A 8 / B 5 (a random 50/50 split would give about 7 / 7 / 4)
 
 | id | slot | tier | score | 80% range | same tier in bootstrap |
 |---|---|---|---|---|---|
-| t052c16ae | above S1 | S | 99.6 | 96.6–100 | 100% |
-| td816798a | above S1 | S | 99.2 | 96.2–100 | 100% |
-| ted929feb | above S1 | S | 98.8 | 95.8–100 | 100% |
-| t6ce48b07 | above S1 | S | 98.4 | 95.4–100 | 100% |
-| t728b4b03 | between S7 and A1 in S | S | 80.4 | 77.4–98.4 | 97% |
-| tee211b9a | between S7 and A1 in S | S | 79.4 | 76.4–88.6 | 98% |
-| t3c988896 | between S7 and A1 in S | S | 78.5 | 75.5–81.5 | 84% |
-| t0a1b3f2b | between S7 and A1 in A | A | 77.5 | 69.6–80.5 | 81% |
-| t511aa9f7 | between S7 and A1 in A | A | 76.6 | 68.5–79.6 | 94% |
-| td83c7b30 | between S7 and A1 in A | A | 75.6 | 67.4–78.6 | 98% |
-| t949d0c28 | between A3 and A4 | A | 64.8 | 61.8–67.8 | 100% |
-| t47e13f42 | between A7 and B1 in A | A | 50.4 | 47.4–53.4 | 99% |
-| te0e7d7c7 | between A7 and B1 in A | A | 48.0 | 45.0–51.0 | 76% |
-| td5b1c789 | between A7 and B1 in B | B | 45.6 | 42.6–48.6 | 80% |
-| tf4ea87ef | between B3 and B4 | B | 17.4 | 14.4–45.6 | 99% |
-| t709e8ec1 | below B4 | B | 11.2 | 8.2–14.2 | 100% |
-| t2e8079b2 | below B4 | B | 8.8 | 5.8–11.8 | 100% |
+| t052c16ae | between S4 and S5 | S | 89.7 | 86.7–92.7 | 100% |
+| td816798a | between S4 and S5 | S | 89.2 | 86.2–92.2 | 100% |
+| ted929feb | between S4 and S5 | S | 88.7 | 85.7–91.7 | 100% |
+| t6ce48b07 | between S4 and S5 | S | 88.2 | 85.2–91.2 | 100% |
+| t728b4b03 | between S7 and A1 in A | A | 77.3 | 73.4–88.9 | 20% |
+| tee211b9a | between S7 and A1 in A | A | 74.4 | 71.4–87.1 | 45% |
+| t3c988896 | between A1 and A2 | A | 73.9 | 70.9–84.2 | 59% |
+| t0a1b3f2b | between A1 and A2 | A | 73.4 | 70.4–84.2 | 76% |
+| t511aa9f7 | between A1 and A2 | A | 72.9 | 69.9–84.2 | 81% |
+| td83c7b30 | between A1 and A2 | A | 72.4 | 69.4–84.2 | 83% |
+| t949d0c28 | between A1 and A2 | A | 72.3 | 66.4–75.3 | 100% |
+| t47e13f42 | between A3 and A4 | A | 64.8 | 61.8–72.3 | 100% |
+| te0e7d7c7 | between B1 and B2 | B | 40.5 | 33.3–54.3 | 78% |
+| td5b1c789 | between B1 and B2 | B | 33.6 | 30.6–40.9 | 97% |
+| tf4ea87ef | between B2 and B3 | B | 33.1 | 23.1–36.1 | 100% |
+| t709e8ec1 | between B3 and B4 | B | 12.2 | 9.2–17.8 | 100% |
+| t2e8079b2 | below B4 | B | 11.8 | 8.8–14.8 | 100% |

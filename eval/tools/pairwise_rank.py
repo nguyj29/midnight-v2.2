@@ -7,8 +7,9 @@ Inputs: eval/pairwise/results/*.jsonl (blind verdicts on alias pairs), eval/pair
 2. Judge check: agreement of blind verdicts with the user's own order on labelled-vs-labelled pairs.
 3. Slot for each unlabelled track U: the gap in the user's order (19 gaps) that minimises the expected number of
    pairwise disagreements, sum_{L above gap} P(U beats L) + sum_{L below gap} P(L beats U), with P from the
-   Bradley-Terry fit. Score = slot score (lib/scale via placement_kit.slot_score). Tracks sharing a slot are
-   ordered by strength and spread evenly inside the gap.
+   Bradley-Terry fit. (Superseded: the user's within-tier order is where blind judges are weakest, so exact slotting put tracks
+   'above S1'.) Final: a monotone (isotonic) fit of the user's anchored score on blind strength over the 18
+   labelled tracks maps each unlabelled track's strength to a score; the slot is where that score falls.
 4. 80% range: bootstrap over verdicts (resample with replacement, refit, re-slot), 10th-90th percentile.
 
 Writes eval/pairwise/strengths.csv, eval/pairwise/summary.md and eval/placements/pairwise.jsonl
@@ -98,6 +99,29 @@ def order_tier(t):
     return _TIERS[t]
 
 
+def pav(x, y):
+    """Isotonic (non-decreasing) fit of y on x; returns sorted x and fitted y."""
+    o = np.argsort(x)
+    xs, ys = np.asarray(x)[o], np.asarray(y, float)[o]
+    blocks = [[v, 1.0] for v in ys]
+    vals = []
+    for v in ys:
+        vals.append([v, 1])
+        while len(vals) > 1 and vals[-2][0] > vals[-1][0]:
+            a, b = vals.pop(), vals.pop()
+            n = a[1] + b[1]
+            vals.append([(a[0] * a[1] + b[0] * b[1]) / n, n])
+    fit = []
+    for v, n in vals:
+        fit += [v] * n
+    return xs, np.array(fit)
+
+
+def iso_score(u_strength, lab_strengths, lab_scores):
+    xs, fit = pav(lab_strengths, lab_scores)
+    return float(np.interp(u_strength, xs, fit))
+
+
 def main():
     labels = read_labels(EVAL.parent / "labels.csv")
     sc = anchored_scores(labels)
@@ -124,6 +148,17 @@ def main():
     rho = spearmanr([st[t] for t in order], [-rank[t] for t in order])[0]
 
     def place(strength):
+        """Monotone map from blind strength to the user's scale, fitted on the 18 labelled tracks."""
+        ls = [strength[t] for t in order]
+        lsc = [sc[t] for t in order]
+        res = {}
+        for u in unl:
+            v = iso_score(strength[u], ls, lsc)
+            k = sum(1 for t in order if sc[t] > v)
+            res[u] = (k, v)
+        return res
+
+    def place_slots(strength):
         res = {}
         slots = {}
         for u in unl:
@@ -137,6 +172,15 @@ def main():
         return res
 
     main_pl = place(st)
+    # tracks mapped to the same score (an isotonic plateau) are ordered by blind strength, 0.5 points apart
+    groups = {}
+    for u, (k, v) in main_pl.items():
+        groups.setdefault(round(v, 3), []).append(u)
+    for v, us in groups.items():
+        us.sort(key=lambda t: -st[t])
+        for i, u in enumerate(us):
+            nv = v + 0.5 * ((len(us) - 1) / 2 - i)
+            main_pl[u] = (sum(1 for t in order if sc[t] > nv), nv)
     # bootstrap
     random.seed(7)
     boots = {u: [] for u in unl}

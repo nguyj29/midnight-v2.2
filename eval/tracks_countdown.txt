@@ -1,7 +1,14 @@
 TRACKS, COUNTDOWN (bottom of B up to top of S)
+Final method: blind pairwise tournament. All 595 pairs of the 35 tracks were judged side by side from coded descriptions (judges never knew which tracks you ranked), then the unlabelled tracks were placed on your scale by a monotone fit to your own 18.
 Position = tier and place in the combined order. [yours] = your own ranking; [predicted] = placed by the model.
-Style references below are sounds-like comparisons, written after the predictions were locked and not used in placing anything.
+Style references are sounds-like comparisons, written after the predictions were locked and not used in placing anything.
 Specific track names: no confident guess for any track. Nothing was recognised from the analysis (the audio itself was never heard), so no titles are named rather than guessed.
+
+B9 - t2e8079b2 [predicted]
+  Sounds like: one-minute solo marimba-like sketch rocking between two warm chords.
+  Why here: One-minute solo marimba-like sketch rocking between two warm chords, home-demo feel; in 34 blind side-by-side comparisons it won 16% of the preference weight, ranking 35 of 35 by strength. Mapped onto your own ranking it lands below B4, and B in 100% of bootstrap resamples. Score 11.8 (80% range 8.8-14.8), confidence high.
+  Likely comes from: A home-made marimba or kalimba sketch (lo-fi demo).
+  Specific track guess: none (not confident).
 
 B8 - t8d54bfc3 [yours, B4]
   Sounds like: sunny, rippling new-age "focus" loop, no drums.
@@ -9,10 +16,10 @@ B8 - t8d54bfc3 [yours, B4]
   Likely comes from: New-age / 'focus music' minimalism: C418's calmer Minecraft pieces or study-playlist ambient.
   Specific track guess: none (not confident).
 
-B7 - t2e8079b2 [predicted]
-  Sounds like: one-minute solo marimba-like sketch rocking between two warm chords.
-  Why here (side-by-side verdicts against your 18): A one-minute, drumless, lullaby-like sketch rocking between two pretty chords, it shares every trait of the user's least-liked tracks (sweet colour, no beat, no arrival, a barely changing loop) with less material than any of them. Every labelled track would be preferred except B4, an even call, so it slots at the very bottom. FINAL: it ranked 17 of 17 unlabelled tracks; calibrated to the 50/50 split, it sits between B3 and B4 (score 12.3, 80% range 5.6-24.6).
-  Likely comes from: A home-made marimba or kalimba sketch (lo-fi demo).
+B7 - t709e8ec1 [predicted]
+  Sounds like: drumless lullaby waltz on plucked strings and keys.
+  Why here: Drumless lullaby waltz on plucked strings and keys, dusky to hopeful, flat and loopy; in 34 blind side-by-side comparisons it won 18% of the preference weight, ranking 34 of 35 by strength. Mapped onto your own ranking it lands between B3 and B4, and B in 100% of bootstrap resamples. Score 12.2 (80% range 9.2-17.8), confidence high.
+  Likely comes from: Storybook game soundtrack waltz, in the style of Ori or Stardew Valley's gentler cues.
   Specific track guess: none (not confident).
 
 B6 - tb20bad3c [yours, B3]
@@ -21,10 +28,10 @@ B6 - tb20bad3c [yours, B3]
   Likely comes from: Cosy game soundtrack: Stardew Valley or Animal Crossing-style keys.
   Specific track guess: none (not confident).
 
-B5 - t709e8ec1 [predicted]
-  Sounds like: drumless lullaby waltz on plucked strings and keys.
-  Why here (side-by-side verdicts against your 18): A drumless, swaying music-box lullaby that is pretty but flat, with no arrival, which is exactly the sweet, pastel profile the user ranks lowest. Its dusky opening and a darker turn midway make it slightly less sunny than B4, but it lacks the beat and dark peak that keep B3 above it. FINAL: it ranked 16 of 17 unlabelled tracks; calibrated to the 50/50 split, it sits between B2 and B3 (score 23.6, 80% range 15.1-37.1).
-  Likely comes from: Storybook game soundtrack waltz, in the style of Ori or Stardew Valley's gentler cues.
+B5 - tf4ea87ef [predicted]
+  Sounds like: drumless harp/music-box miniature, echoey, gentle swells.
+  Why here: Drumless harp/music-box miniature in F, echoey, breathing swells, clean guitar-like lead, 1:39; in 34 blind side-by-side comparisons it won 23% of the preference weight, ranking 31 of 35 by strength. Mapped onto your own ranking it lands between B2 and B3, and B in 100% of bootstrap resamples. Score 33.1 (80% range 23.1-36.1), confidence high.
+  Likely comes from: Music-box / harp lullaby, in the style of an RPG menu or save-room theme.
   Specific track guess: none (not confident).
 
 B4 - ted20dc6f [yours, B2]
@@ -33,130 +40,124 @@ B4 - ted20dc6f [yours, B2]
   Likely comes from: Dark prog / psych rock: King Crimson or Tool-ish riffing, or a game boss theme.
   Specific track guess: none (not confident).
 
-B3 - tf4ea87ef [predicted]
-  Sounds like: drumless harp/music-box miniature, echoey, gentle swells.
-  Why here (side-by-side verdicts against your 18): A soft, drumless harp or music-box loop that breathes in small swells but never arrives anywhere, which puts it in the user's least-liked "sweet and pastel" group. It edges out the sunny new-age loop (B4) with its echoey, slightly wistful mood but loses to the game-keys piece (B3), which has a beat and a darker peak. FINAL: it ranked 15 of 17 unlabelled tracks; calibrated to the 50/50 split, it sits between B1 and B2 (score 34.9, 80% range 25.9-46.9).
-  Likely comes from: Music-box / harp lullaby, in the style of an RPG menu or save-room theme.
+B3 - td5b1c789 [predicted]
+  Sounds like: cheerful 90-second anime-opening bounce, bright keys, one wistful turn.
+  Why here: Cheerful 90-second anime-opening bounce, bright keys, busy bass, wistful turn, quick fade; in 34 blind side-by-side comparisons it won 32% of the preference weight, ranking 29 of 35 by strength. Mapped onto your own ranking it lands between B1 and B2, and B in 97% of bootstrap resamples. Score 33.6 (80% range 30.6-40.9), confidence high.
+  Likely comes from: An anime opening played by a J-pop/J-rock band (instrumental), K-On!-style bounce.
   Specific track guess: none (not confident).
 
-B2 - t61233098 [yours, B1]
+B2 - te0e7d7c7 [predicted]
+  Sounds like: bright, heroic game-chase synth rush with a big late lift.
+  Why here: Bright heroic 140 BPM game-chase synth rush, shifting hopeful chords, big late lift; in 34 blind side-by-side comparisons it won 35% of the preference weight, ranking 27 of 35 by strength. Mapped onto your own ranking it lands between B1 and B2, and B in 78% of bootstrap resamples. Score 40.5 (80% range 33.3-54.3), confidence medium.
+  Likely comes from: Game chase / eurobeat-leaning synth rush: Sonic, Mega Man or Initial D-style.
+  Specific track guess: none (not confident).
+
+B1 - t61233098 [yours, B1]
   Sounds like: movie-trailer string pulse: urgent, "epic", flat and repetitive.
   Why here: Your own B1. Urgent movie-trailer tension that never lands.
   Likely comes from: Trailer / epic-music library: Two Steps From Hell or Audiomachine style.
   Specific track guess: none (not confident).
 
-B1 - td5b1c789 [predicted]
-  Sounds like: cheerful 90-second anime-opening bounce, bright keys, one wistful turn.
-  Why here (side-by-side verdicts against your 18): A cheerful, bouncy anime-opening cue with a tight, relentless beat, a brief wistful turn and a choppy middle, but no drop, break or arrival, and everything at one loudness. Side by side it loses to every S track and to most of A, and beats all four B tracks because it's energetic rather than tense or pastel, so it lands at the bottom of A. FINAL: it ranked 14 of 17 unlabelled tracks; calibrated to the 50/50 split, it sits between A7 and B1 in B (score 45.6, 80% range 35.1-57.1).
-  Likely comes from: An anime opening played by a J-pop/J-rock band (instrumental), K-On!-style bounce.
-  Specific track guess: none (not confident).
-
-A13 - t21aaeadf [yours, A7]
+A15 - t21aaeadf [yours, A7]
   Sounds like: relaxed late-night small band (sax-like lead, big bass), drumless middle.
   Why here: Your own A7. Warm and nostalgic live-band groove; pleasant, not immersive.
   Likely comes from: Soul-jazz / jazz-funk small band: BADBADNOTGOOD or a 60s–70s soul-jazz record.
   Specific track guess: none (not confident).
 
-A12 - t511aa9f7 [predicted]
-  Sounds like: 75-second chiming picked-guitar vignette over live drums, a late lift.
-  Why here (side-by-side verdicts against your 18): A short, hypnotic picked-guitar vignette whose wistful mood and drums-in-and-out breathing beat the flat loops and the sweet or tense B tracks. It lacks the big arrival and the fullness of the user's favourites and of A5's climax, so it lands in the lower-middle of A. FINAL: it ranked 13 of 17 unlabelled tracks; calibrated to the 50/50 split, it sits between A6 and A7 (score 53.0, 80% range 42.5-66.5).
-  Likely comes from: Math rock / post-rock guitar vignette: American Football or Covet-style picking, or a game montage cue.
-  Specific track guess: none (not confident).
-
-A11 - td231b399 [yours, A6]
+A14 - td231b399 [yours, A6]
   Sounds like: loud, dusty sample-style hip-hop loop, three near-identical rounds.
   Why here: Your own A6. A punchy dusty loop that plays the same round three times.
   Likely comes from: Sample-based boom-bap beat: Madlib or J Dilla beat-tape style.
   Specific track guess: none (not confident).
 
-A10 - te0e7d7c7 [predicted]
-  Sounds like: bright, heroic game-chase synth rush with a big late lift.
-  Why here (side-by-side verdicts against your 18): A bright, heroic 140 BPM game-chase synth rush with a real band arrival and moving chords, but it's cheerful rather than moody and has no breakdown for over two minutes, which matches the user's energetic-but-flat A tier. Side by side, it loses to every S track and to A1, A2 and A5 (which build or breathe more), ties A3 and A4, and beats the flat loop A6, the mellow A7 and all four B tracks. FINAL: it ranked 12 of 17 unlabelled tracks; calibrated to the 50/50 split, it sits between A5 and A6 (score 56.9, 80% range 45.4-68.4).
-  Likely comes from: Game chase / eurobeat-leaning synth rush: Sonic, Mega Man or Initial D-style.
-  Specific track guess: none (not confident).
-
-A9 - tde35730e [yours, A5]
+A13 - tde35730e [yours, A5]
   Sounds like: music-box opening swelling to a heroic anime-film climax.
   Why here: Your own A5. A satisfying build, but the climax is heroic and melodramatic rather than cool.
   Likely comes from: Anime or game orchestral build: Yoko Kanno or Joe Hisaishi-style title theme.
   Specific track guess: none (not confident).
 
-A8 - tee211b9a [predicted]
-  Sounds like: dark, loud lo-fi trap beat, stuttering chopped-voice lead, one pattern for 3.5 min.
-  Why here (side-by-side verdicts against your 18): A dark, wistful late-night 808 beat whose mood is the kind this user likes, putting it above the sinister, sweet and dusty-loop tracks at the bottom. But one four-bar loop running flat for 3.5 minutes with a single shallow drop gives it none of the arrival or breathing of the S tier, so it sits in lower A. FINAL: it ranked 11 of 17 unlabelled tracks; calibrated to the 50/50 split, it sits between A4 and A5 (score 60.7, 80% range 48.2-70.2).
-  Likely comes from: Lo-fi trap beat with chopped vocal samples: Clams Casino-lite or a 'sad type beat'.
-  Specific track guess: none (not confident).
-
-A7 - t3b9d70c1 [yours, A4]
+A12 - t3b9d70c1 [yours, A4]
   Sounds like: loud, fast video-game synth loop, bending lead, harsh-sounding copy.
   Why here: Your own A4. Loud, fast game energy, one loop, harsh-sounding copy.
   Likely comes from: Video-game battle music: Toby Fox (Undertale/Deltarune) or Lena Raine (Celeste)-style synth energy.
   Specific track guess: none (not confident).
 
-A6 - t0a1b3f2b [predicted]
-  Sounds like: warm, melancholy study-playlist hip-hop loop, deep bass, one cycle throughout.
-  Why here (side-by-side verdicts against your 18): A warm, melancholy lo-fi hip-hop loop whose mood suits the user's taste for cool, nodding atmospherics, but it runs one short cycle at one level for three minutes, with no hook, no big arrival and no real breakdown. Side by side it loses to every S track and to the busier A tracks (A1–A3), ties with A4 and A5, and beats the plainer loop beats (A6, A7) and all of B, so it sits mid-A. FINAL: it ranked 10 of 17 unlabelled tracks; calibrated to the 50/50 split, it sits between A3 and A4 (score 64.6, 80% range 53.5-74.5).
-  Likely comes from: Lo-fi hip-hop study beat (Lofi Girl / Chillhop Music).
+A11 - t47e13f42 [predicted]
+  Sounds like: bleepy retro chiptune-style game tune: build, drop, build; very loud.
+  Why here: Bleepy retro chiptune-ish game tune, Am-F only, build/drop/build, very loud, loop-point ending; in 34 blind side-by-side comparisons it won 42% of the preference weight, ranking 24 of 35 by strength. Mapped onto your own ranking it lands between A3 and A4, and A in 100% of bootstrap resamples. Score 64.8 (80% range 61.8-72.3), confidence high.
+  Likely comes from: Chiptune-flavoured electro: Anamanaguchi, Chipzel or Geometry Dash-style tracks.
   Specific track guess: none (not confident).
 
-A5 - t94fd0413 [yours, A3]
+A10 - t94fd0413 [yours, A3]
   Sounds like: slow, nodding hip-hop beat with a sudden bright detour mid-track.
   Why here: Your own A3. A moody loop beat with one surprising detour; nice, but little build.
   Likely comes from: Lo-fi boom-bap beat-tape in the Nujabes / J Dilla tradition, with trap 808s.
   Specific track guess: none (not confident).
 
-A4 - t728b4b03 [predicted]
-  Sounds like: sad, glossy trap beat, very loud and even, with a late switch to a brighter groove.
-  Why here (side-by-side verdicts against your 18): A sad, glossy trap loop over booming bass: the moody night-time feel suits this user, and the drumless intro, bridge and late beat switch give it more shape than the plain loop beats. But it plays at one flat, loud level for 3:23 with no real arrival, so it sits with the other hip-hop beats in mid-A, level with A3. FINAL: it ranked 9 of 17 unlabelled tracks; calibrated to the 50/50 split, it sits between A2 and A3 (score 68.5, 80% range 55.7-77.7).
-  Likely comes from: Melodic 'sad trap' type beat: Metro Boomin-adjacent production.
-  Specific track guess: none (not confident).
-
-A3 - t9fb064e8 [yours, A2]
+A9 - t9fb064e8 [yours, A2]
   Sounds like: polished, bittersweet club house: one hook loop for 2.5 minutes.
   Why here: Your own A2. Polished and catchy, but one hook loop for 2.5 minutes, brighter and flatter than S2.
   Likely comes from: Melodic club house: Lane 8, Ben Böhmer or Kygo-adjacent tropical-leaning house.
   Specific track guess: none (not confident).
 
-A2 - t949d0c28 [predicted]
+A8 - t949d0c28 [predicted]
   Sounds like: smooth "rooftop" house, walking bass, catchy repeated phrase.
-  Why here (side-by-side verdicts against your 18): A warm, catchy, jazzy house groove with the right cool-wistful mood but almost no arrival or breathing: one six-second drop, one level, a fade. It sits with the user's one-level club and loop tracks, just under its close cousin A2 (whose breakdown and second drop hit harder) and above the static hip-hop loops. FINAL: it ranked 8 of 17 unlabelled tracks; calibrated to the 50/50 split, it sits between A1 and A2 (score 72.4, 80% range 62.0-85.0).
+  Why here: Smooth rooftop house groove, walking bass, catchy repeated phrase, filter moves, fade; in 34 blind side-by-side comparisons it won 46% of the preference weight, ranking 20 of 35 by strength. Mapped onto your own ranking it lands between A1 and A2, and A in 100% of bootstrap resamples. Score 72.3 (80% range 66.4-75.3), confidence high.
   Likely comes from: Smooth jazzy deep house: FKJ, Folamour or Lane 8's warmer tracks.
   Specific track guess: none (not confident).
 
-A1 - tac555977 [yours, A1]
+A7 - td83c7b30 [predicted]
+  Sounds like: 80s night-drive synthwave, bubbling bass, a singing lead in the darker middle.
+  Why here: 80s night-drive synthwave, bubbling bass, singing gliding lead in the darker middle, abrupt stop; in 34 blind side-by-side comparisons it won 54% of the preference weight, ranking 16 of 35 by strength. Mapped onto your own ranking it lands between A1 and A2, and A in 83% of bootstrap resamples. Score 72.4 (80% range 69.4-84.2), confidence medium.
+  Likely comes from: 80s-revival synthwave: Kavinsky, The Midnight or FM-84.
+  Specific track guess: none (not confident).
+
+A6 - t511aa9f7 [predicted]
+  Sounds like: 75-second chiming picked-guitar vignette over live drums, a late lift.
+  Why here: 75-second chiming picked-guitar post-rock vignette over live drums, late step-up lift; in 34 blind side-by-side comparisons it won 55% of the preference weight, ranking 15 of 35 by strength. Mapped onto your own ranking it lands between A1 and A2, and A in 81% of bootstrap resamples. Score 72.9 (80% range 69.9-84.2), confidence medium.
+  Likely comes from: Math rock / post-rock guitar vignette: American Football or Covet-style picking, or a game montage cue.
+  Specific track guess: none (not confident).
+
+A5 - t0a1b3f2b [predicted]
+  Sounds like: warm, melancholy study-playlist hip-hop loop, deep bass, one cycle throughout.
+  Why here: Warm melancholy study-playlist hip-hop loop, deep bass, one 4-bar cycle throughout; in 34 blind side-by-side comparisons it won 56% of the preference weight, ranking 14 of 35 by strength. Mapped onto your own ranking it lands between A1 and A2, and A in 76% of bootstrap resamples. Score 73.4 (80% range 70.4-84.2), confidence medium.
+  Likely comes from: Lo-fi hip-hop study beat (Lofi Girl / Chillhop Music).
+  Specific track guess: none (not confident).
+
+A4 - t3c988896 [predicted]
+  Sounds like: muffled-intro night hip-hop, 808, chords drifting darker.
+  Why here: Muffled-intro night hip-hop, 808, drifting darker chord turns, flat level, hard stop; in 34 blind side-by-side comparisons it won 61% of the preference weight, ranking 13 of 35 by strength. Mapped onto your own ranking it lands between A1 and A2, and A in 59% of bootstrap resamples. Score 73.9 (80% range 70.9-84.2), confidence low.
+  Likely comes from: Night-time lo-fi hip-hop: Lofi Girl 'sleepy' style, or a moody producer type-beat.
+  Specific track guess: none (not confident).
+
+A3 - tac555977 [yours, A1]
   Sounds like: fast anime-action synth-rock, exciting but one level throughout.
   Why here: Your own A1. Exciting and fast, but it stays at one level for three minutes.
   Likely comes from: Anime or game action soundtrack: Hiroyuki Sawano-style synth-rock, or a Persona battle theme.
   Specific track guess: none (not confident).
 
-S14 - t3c988896 [predicted]
-  Sounds like: muffled-intro night hip-hop, 808, chords drifting darker.
-  Why here (side-by-side verdicts against your 18): A moody, head-nodding night-time hip-hop beat whose muffled opening, darker drifting chords and one drum pull-back put it above the user's plainer loop beats (A3, A6). Its flat energy, lack of a big arrival and replayed second half keep it below the tracks that hit hard or breathe more (A2 and everything above). FINAL: it ranked 7 of 17 unlabelled tracks; calibrated to the 50/50 split, it sits between S7 and A1 in S (score 78.9, 80% range 67.8-89.8).
-  Likely comes from: Night-time lo-fi hip-hop: Lofi Girl 'sleepy' style, or a moody producer type-beat.
+A2 - tee211b9a [predicted]
+  Sounds like: dark, loud lo-fi trap beat, stuttering chopped-voice lead, one pattern for 3.5 min.
+  Why here: Dark loud lo-fi trap beat, 808, stuttering chopped-voice lead, one 4-bar loop for 3.5 min; in 34 blind side-by-side comparisons it won 63% of the preference weight, ranking 12 of 35 by strength. Mapped onto your own ranking it lands between S7 and A1 in A, and A in 45% of bootstrap resamples. Score 74.4 (80% range 71.4-87.1), confidence low.
+  Likely comes from: Lo-fi trap beat with chopped vocal samples: Clams Casino-lite or a 'sad type beat'.
   Specific track guess: none (not confident).
 
-S13 - tc8f1d0c8 [yours, S7]
+A1 - t728b4b03 [predicted]
+  Sounds like: sad, glossy trap beat, very loud and even, with a late switch to a brighter groove.
+  Why here: Moody loud trap beat, sad glossy loop, late beat switch to brighter groove, hard stop; in 34 blind side-by-side comparisons it won 65% of the preference weight, ranking 10 of 35 by strength. Mapped onto your own ranking it lands between S7 and A1 in A, and A in 20% of bootstrap resamples. Score 77.3 (80% range 73.4-88.9), confidence low.
+  Likely comes from: Melodic 'sad trap' type beat: Metro Boomin-adjacent production.
+  Specific track guess: none (not confident).
+
+S11 - tc8f1d0c8 [yours, S7]
   Sounds like: sparse, dark 2 a.m. trip-hop, muffled keys, a near-silent drop.
   Why here: Your own S7. Sparse 2 a.m. atmosphere with a near-silent drop; the darkest, most minimal favourite.
   Likely comes from: 90s-style trip-hop: Massive Attack, Portishead or DJ Shadow instrumentals.
   Specific track guess: none (not confident).
 
-S12 - t47e13f42 [predicted]
-  Sounds like: bleepy retro chiptune-style game tune: build, drop, build; very loud.
-  Why here (side-by-side verdicts against your 18): A bright, bleepy retro game-level tune with a thumping beat and clear build-drop-breakdown moves, closest in shape to S1 but without its hook, lift or polish, and circling one two-step pattern with copied choruses. It breathes and hits harder than the flat loop beats (A3, A6) but isn't as varied as A1 or as immersive as anything in S, so it sits mid-A. FINAL: it ranked 6 of 17 unlabelled tracks; calibrated to the 50/50 split, it sits between S6 and S7 (score 83.8, 80% range 71.9-93.9).
-  Likely comes from: Chiptune-flavoured electro: Anamanaguchi, Chipzel or Geometry Dash-style tracks.
-  Specific track guess: none (not confident).
-
-S11 - t9d4d0c39 [yours, S6]
+S10 - t9d4d0c39 [yours, S6]
   Sounds like: warm, hypnotic downtempo with a sparkling pattern and floating drumless breaks.
   Why here: Your own S6. Warm and hypnotic, with drumless floating breaks and a bright final lift.
   Likely comes from: Melodic downtempo: Bonobo, Tycho or ODESZA's quieter tracks.
-  Specific track guess: none (not confident).
-
-S10 - ted929feb [predicted]
-  Sounds like: wistful, sighing guitar loop over a steady beat, twinkly piano, a slowdown at the end.
-  Why here (side-by-side verdicts against your 18): A wistful, sighing guitar loop over a nodding beat with drumless floating breaks, which fits the user's taste for melancholy, immersive music but never lands a real arrival or build. Side by side it loses to every S track and to energetic A1, is even with A2, and beats the flatter loop beats and everything in B, so it sits in mid-to-upper A. FINAL: it ranked 5 of 17 unlabelled tracks; calibrated to the 50/50 split, it sits between S5 and S6 (score 86.6, 80% range 75.0-97.0).
-  Likely comes from: Chillhop with a sampled-guitar loop: Nujabes-inspired producers like Tomppabeats or idealism.
   Specific track guess: none (not confident).
 
 S9 - t77478144 [yours, S5]
@@ -167,44 +168,44 @@ S9 - t77478144 [yours, S5]
 
 S8 - t6ce48b07 [predicted]
   Sounds like: wistful lo-fi hip-hop that sinks "underwater", then a heavy slow 808 stretch.
-  Why here (side-by-side verdicts against your 18): A wistful, late-night lo-fi beat that breathes more than the other loop tracks, with an underwater breakdown and a heavy half-time switch that give it a real arrival. Its flat level and repeated opening keep it below the immersive S-tier downtempo tracks, so it lands near the top of A, level with A1 and A2. FINAL: it ranked 4 of 17 unlabelled tracks; calibrated to the 50/50 split, it sits between S4 and S5 (score 89.4, 80% range 78.9-99.9).
+  Why here: Wistful lo-fi hip-hop, sinks underwater then heavy half-time 808 stretch, hopeful ending; in 34 blind side-by-side comparisons it won 71% of the preference weight, ranking 6 of 35 by strength. Mapped onto your own ranking it lands between S4 and S5, and S in 100% of bootstrap resamples. Score 88.2 (80% range 85.2-91.2), confidence high.
   Likely comes from: Lo-fi hip-hop in the Lofi Girl / Chillhop catalogue, with trap-style 808 sections.
   Specific track guess: none (not confident).
 
-S7 - t0d513ac8 [yours, S4]
+S7 - ted929feb [predicted]
+  Sounds like: wistful, sighing guitar loop over a steady beat, twinkly piano, a slowdown at the end.
+  Why here: Wistful sighing descending guitar loop, steady beat, twinkly piano, drumless breaks, final slowdown; in 34 blind side-by-side comparisons it won 76% of the preference weight, ranking 5 of 35 by strength. Mapped onto your own ranking it lands between S4 and S5, and S in 100% of bootstrap resamples. Score 88.7 (80% range 85.7-91.7), confidence high.
+  Likely comes from: Chillhop with a sampled-guitar loop: Nujabes-inspired producers like Tomppabeats or idealism.
+  Specific track guess: none (not confident).
+
+S6 - td816798a [predicted]
+  Sounds like: glossy future-bass drops after a long muffled intro, bittersweet twist in the second drop.
+  Why here: Glossy future-bass drops, long muffled intro, bittersweet twist in the second drop, short; in 34 blind side-by-side comparisons it won 76% of the preference weight, ranking 2 of 35 by strength. Mapped onto your own ranking it lands between S4 and S5, and S in 100% of bootstrap resamples. Score 89.2 (80% range 86.2-92.2), confidence high.
+  Likely comes from: Future bass: Porter Robinson, San Holo or Illenium.
+  Specific track guess: none (not confident).
+
+S5 - t052c16ae [predicted]
+  Sounds like: dark, velvety synth groove, hazy and hypnotic, a dreamy lift halfway, abrupt stop.
+  Why here: Dark velvety synth groove, odd 6-bar loop, dreamy lift halfway, stops abruptly; in 34 blind side-by-side comparisons it won 76% of the preference weight, ranking 3 of 35 by strength. Mapped onto your own ranking it lands between S4 and S5, and S in 100% of bootstrap resamples. Score 89.7 (80% range 86.7-92.7), confidence high.
+  Likely comes from: Dark synth downtempo: Com Truise, Tycho's darker side or Boards of Canada.
+  Specific track guess: none (not confident).
+
+S4 - t0d513ac8 [yours, S4]
   Sounds like: short, dark, restless breakbeat piece: a drums-only break, then a yearning, film-like middle.
   Why here: Your own S4. The drums-only break slams back into a dark, yearning middle; restless but never cute.
   Likely comes from: Glitchy, dark breakbeat electronica: Burial, Machinedrum or Aphex-adjacent IDM, possibly a game or film cue.
   Specific track guess: none (not confident).
 
-S6 - td83c7b30 [predicted]
-  Sounds like: 80s night-drive synthwave, bubbling bass, a singing lead in the darker middle.
-  Why here (side-by-side verdicts against your 18): A driving, loop-based retro synth track with a cool night-drive mood, a muffled intro that bursts open at 0:37 and a darker, tuneful middle, which puts it level with A1 and ahead of the flatter club and hip-hop loops. It falls short of S because one short pattern fills most of the track at a steady level, with no big drop or break like those in the user's favourites. FINAL: it ranked 3 of 17 unlabelled tracks; calibrated to the 50/50 split, it sits between S3 and S4 (score 92.3, 80% range 79.4-99.4).
-  Likely comes from: 80s-revival synthwave: Kavinsky, The Midnight or FM-84.
-  Specific track guess: none (not confident).
-
-S5 - t5fe4a915 [yours, S3]
+S3 - t5fe4a915 [yours, S3]
   Sounds like: heavy, dark wall of guitars crashing in after a quiet intro; grinding, then emotional.
   Why here: Your own S3. A quiet intro, then a crushing wall of guitars: maximum impact, and sad rather than sinister.
   Likely comes from: Heavy post-rock / post-metal: Russian Circles, Pelican, or the heavier side of Mogwai.
   Specific track guess: none (not confident).
 
-S4 - t052c16ae [predicted]
-  Sounds like: dark, velvety synth groove, hazy and hypnotic, a dreamy lift halfway, abrupt stop.
-  Why here (side-by-side verdicts against your 18): A dark, hazy, hypnotic synth groove with a pad-swell intro, a brighter dreamy middle and drumless breaks fits the user's liking for cool, immersive moods and beats every A and B track side by side. It loses to all the S tracks except an even call with S7, because it's a dense one-level loop beat with no big impact, no tune and an abrupt ending, so it sits at the very top of A. FINAL: it ranked 2 of 17 unlabelled tracks; calibrated to the 50/50 split, it sits between S2 and S3 (score 95.1, 80% range 83.1-100.0).
-  Likely comes from: Dark synth downtempo: Com Truise, Tycho's darker side or Boards of Canada.
-  Specific track guess: none (not confident).
-
-S3 - t8aca41eb [yours, S2]
+S2 - t8aca41eb [yours, S2]
   Sounds like: cool, moody broken-beat house groove, tight drums, one catchy hook mid-track.
   Why here: Your own S2. A cool, moody groove that lands hard after a filter sweep; tight and short.
   Likely comes from: UK-leaning broken-beat house with vocal chops: think Disclosure, Bicep or Fred again.. instrumentals.
-  Specific track guess: none (not confident).
-
-S2 - td816798a [predicted]
-  Sounds like: glossy future-bass drops after a long muffled intro, bittersweet twist in the second drop.
-  Why here (side-by-side verdicts against your 18): A glossy future-bass track with a muffled intro, a hard-landing drop, a deep breakdown and a brighter, bittersweet second drop. It has the arrival and breathing that the user's favourites share and beats every flat A track, but its bouncy, lush mood is less cool and immersive than the core S tracks, so it sits at the S/A boundary. FINAL: it ranked 1 of 17 unlabelled tracks; calibrated to the 50/50 split, it sits between S1 and S2 (score 97.9, 80% range 84.9-100.0).
-  Likely comes from: Future bass: Porter Robinson, San Holo or Illenium.
   Specific track guess: none (not confident).
 
 S1 - t68bc6fa5 [yours, S1]
@@ -212,4 +213,3 @@ S1 - t68bc6fa5 [yours, S1]
   Why here: Your own #1. It has the biggest, cleanest arrival in the set (muffled intro, then the drop at 0:27) and driving, happy-but-not-cute energy.
   Likely comes from: Melodic trance / game-style EDM, in the vein of rhythm-game tracks (Geometry Dash, Beat Saber packs) or artists like F-777 and Madeon's early work.
   Specific track guess: none (not confident).
-

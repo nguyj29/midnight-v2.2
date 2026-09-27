@@ -2,41 +2,41 @@ Tiers in order (1 = top of tier). (predicted) = placed by the model; the others 
 
 S tier:
 1 - t68bc6fa5
-2 - td816798a (predicted)
-3 - t8aca41eb
-4 - t052c16ae (predicted)
-5 - t5fe4a915
-6 - td83c7b30 (predicted)
-7 - t0d513ac8
+2 - t8aca41eb
+3 - t5fe4a915
+4 - t0d513ac8
+5 - t052c16ae (predicted)
+6 - td816798a (predicted)
+7 - ted929feb (predicted)
 8 - t6ce48b07 (predicted)
 9 - t77478144
-10 - ted929feb (predicted)
-11 - t9d4d0c39
-12 - t47e13f42 (predicted)
-13 - tc8f1d0c8
-14 - t3c988896 (predicted)
+10 - t9d4d0c39
+11 - tc8f1d0c8
 
 A tier:
-1 - tac555977
-2 - t949d0c28 (predicted)
-3 - t9fb064e8
-4 - t728b4b03 (predicted)
-5 - t94fd0413
-6 - t0a1b3f2b (predicted)
-7 - t3b9d70c1
-8 - tee211b9a (predicted)
-9 - tde35730e
-10 - te0e7d7c7 (predicted)
-11 - td231b399
-12 - t511aa9f7 (predicted)
-13 - t21aaeadf
+1 - t728b4b03 (predicted)
+2 - tee211b9a (predicted)
+3 - tac555977
+4 - t3c988896 (predicted)
+5 - t0a1b3f2b (predicted)
+6 - t511aa9f7 (predicted)
+7 - td83c7b30 (predicted)
+8 - t949d0c28 (predicted)
+9 - t9fb064e8
+10 - t94fd0413
+11 - t47e13f42 (predicted)
+12 - t3b9d70c1
+13 - tde35730e
+14 - td231b399
+15 - t21aaeadf
 
 B tier:
-1 - td5b1c789 (predicted)
-2 - t61233098
-3 - tf4ea87ef (predicted)
+1 - t61233098
+2 - te0e7d7c7 (predicted)
+3 - td5b1c789 (predicted)
 4 - ted20dc6f
-5 - t709e8ec1 (predicted)
+5 - tf4ea87ef (predicted)
 6 - tb20bad3c
-7 - t2e8079b2 (predicted)
+7 - t709e8ec1 (predicted)
 8 - t8d54bfc3
+9 - t2e8079b2 (predicted)

@@ -93,3 +93,6 @@
 - [x] Handoff for a cloud session written: eval/HANDOFF.md
 - [x] Prediction subagents ran on Opus (user allowed it, 2026-09-27) instead of Sonnet
 - [ ] When the user's labeled/unlabeled audio folders arrive: re-run tools/assemble.py so tiers/ links point to the MP3s
+- [x] User: side-by-side, holistic, not anchor-based -> pass 2 (placements/<id>.md), then a blind pairwise tournament over all 595 pairs (final; pairwise/)
+- [x] User: the random 50/50 split implies about 7/7/4; the blind tournament gives 4/8/5 without forcing (the forced quantile spread was tried and dropped as mechanical)
+- [x] tiers.txt and tracks_countdown.txt for the user

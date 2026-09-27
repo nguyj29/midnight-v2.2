@@ -155,7 +155,9 @@ listening_notes.md ×18 + track_table ─► taste_profile.md (v1) ─► valida
                                                                                         │
 tools/PLACEMENT_BRIEF.md (side by side vs all 18) ─► 17 subagents ─► placements/<id>.md (+ tiebreaks.md)
                                                                                         │ reviewed, ties broken
-                                                         placements/placements.jsonl ─► tools/assemble.py
+pairwise/ (coded notes, TASTE.md, BRIEF.md, 28 batches) ─► 28 blind judges ─► pairwise/results/*.jsonl (595 pairs)
+                                                         ─► tools/pairwise_rank.py ─► placements/final.jsonl (FINAL)
+                                                         placements/final.jsonl ─► tools/assemble.py
                                                                                         ├─► predictions.csv
                                                                                         ├─► combined_order.md
                                                                                         └─► tiers/{S,A,B}/  ("N - <id>" symlinks)
@@ -171,6 +173,8 @@ labeled_scores.csv + predictions.csv ─► tools/plot_scores.py ─► scores.p
 | `placements/<id>.md` | Per-track reasoning (pass 2, final): a holistic side-by-side verdict against **all 18** labelled tracks, the flip point, why here, uncertainty, and a main-session review line. `tiebreaks.md` orders tracks that share a slot by pairwise comparison. `placements.jsonl` holds the reviewed final values; `pass2_raw.jsonl` the subagents' raw replies. `pass1/` keeps the earlier anchor-based pass. |
 | `predictions.csv` | id, predicted_tier, estimated_rank_within_tier (among unlabelled tracks in that tier), position, score, 80% range, confidence, top-3 CLAP neighbours, ridge-model tier, two-sentence rationale. |
 | `combined_order.md`, `tiers.txt`, `tiers/` | Labelled and predicted tracks in one order. `tiers/<T>/N - <id>[ (predicted)]` are relative symlinks to the track's MP3 when the audio folders exist (`../labeled`, `../unlabeled` or `blind/…`), otherwise to its packet. Rebuild with `python3 eval/tools/assemble.py eval/placements/placements.jsonl`. |
+| `pairwise/` | **Final method.** Blind pairwise tournament: `notes/pXX.md` (listening notes under random codes, ids and label disclosures removed), `TASTE.md` (taste summary with no track names), `BRIEF.md` (judge brief), `batches/` (28 batches covering all 595 pairs), `results/` (verdicts), `aliases.json` (code → id; judges were barred from it), `strengths.csv` (Bradley-Terry strength per track) and `summary.md` (judge accuracy on the user's own pairs, and the placements). `tools/pairwise_rank.py` fits the strengths, maps them onto the user's scale with a monotone fit over the 18 labelled tracks, and bootstraps the 80% ranges. |
+| `tracks_countdown.txt` | Every track from the bottom of B to the top of S: sounds like, why it's placed there, likely source (style references only). |
 | `scores.png` | Every track's score with 80% error bars on the shaded tier bands (`tools/plot_scores.py`). |
 | `report.md` | Plain-language results for the user. |
 

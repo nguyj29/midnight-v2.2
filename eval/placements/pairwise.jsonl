@@ -1,17 +1,17 @@
-{"id": "t052c16ae", "position": "above S1", "tier": "S", "score": 99.6, "score_low": 96.6, "score_high": 100, "strength": 1.368, "win_share": 0.781, "boot_same_tier": 1.0}
-{"id": "td816798a", "position": "above S1", "tier": "S", "score": 99.2, "score_low": 96.2, "score_high": 100, "strength": 1.351, "win_share": 0.765, "boot_same_tier": 1.0}
-{"id": "ted929feb", "position": "above S1", "tier": "S", "score": 98.8, "score_low": 95.8, "score_high": 100, "strength": 1.298, "win_share": 0.756, "boot_same_tier": 1.0}
-{"id": "t6ce48b07", "position": "above S1", "tier": "S", "score": 98.4, "score_low": 95.4, "score_high": 100, "strength": 1.077, "win_share": 0.71, "boot_same_tier": 1.0}
-{"id": "t728b4b03", "position": "between S7 and A1 in S", "tier": "S", "score": 80.4, "score_low": 77.4, "score_high": 98.4, "strength": 0.713, "win_share": 0.657, "boot_same_tier": 0.97}
-{"id": "tee211b9a", "position": "between S7 and A1 in S", "tier": "S", "score": 79.4, "score_low": 76.4, "score_high": 88.6, "strength": 0.639, "win_share": 0.632, "boot_same_tier": 0.98}
-{"id": "t3c988896", "position": "between S7 and A1 in S", "tier": "S", "score": 78.5, "score_low": 75.5, "score_high": 81.5, "strength": 0.51, "win_share": 0.606, "boot_same_tier": 0.84}
-{"id": "t0a1b3f2b", "position": "between S7 and A1 in A", "tier": "A", "score": 77.5, "score_low": 69.6, "score_high": 80.5, "strength": 0.298, "win_share": 0.562, "boot_same_tier": 0.81}
-{"id": "t511aa9f7", "position": "between S7 and A1 in A", "tier": "A", "score": 76.6, "score_low": 68.5, "score_high": 79.6, "strength": 0.201, "win_share": 0.55, "boot_same_tier": 0.94}
-{"id": "td83c7b30", "position": "between S7 and A1 in A", "tier": "A", "score": 75.6, "score_low": 67.4, "score_high": 78.6, "strength": 0.173, "win_share": 0.535, "boot_same_tier": 0.98}
-{"id": "t949d0c28", "position": "between A3 and A4", "tier": "A", "score": 64.8, "score_low": 61.8, "score_high": 67.8, "strength": -0.179, "win_share": 0.46, "boot_same_tier": 1.0}
-{"id": "t47e13f42", "position": "between A7 and B1 in A", "tier": "A", "score": 50.4, "score_low": 47.4, "score_high": 53.4, "strength": -0.496, "win_share": 0.39, "boot_same_tier": 0.99}
-{"id": "te0e7d7c7", "position": "between A7 and B1 in A", "tier": "A", "score": 48.0, "score_low": 45.0, "score_high": 51.0, "strength": -0.755, "win_share": 0.34, "boot_same_tier": 0.76}
-{"id": "td5b1c789", "position": "between A7 and B1 in B", "tier": "B", "score": 45.6, "score_low": 42.6, "score_high": 48.6, "strength": -0.895, "win_share": 0.319, "boot_same_tier": 0.8}
-{"id": "tf4ea87ef", "position": "between B3 and B4", "tier": "B", "score": 17.4, "score_low": 14.4, "score_high": 45.6, "strength": -1.208, "win_share": 0.26, "boot_same_tier": 0.99}
-{"id": "t709e8ec1", "position": "below B4", "tier": "B", "score": 11.2, "score_low": 8.2, "score_high": 14.2, "strength": -1.724, "win_share": 0.178, "boot_same_tier": 1.0}
-{"id": "t2e8079b2", "position": "below B4", "tier": "B", "score": 8.8, "score_low": 5.8, "score_high": 11.8, "strength": -1.837, "win_share": 0.162, "boot_same_tier": 1.0}
+{"id": "t052c16ae", "position": "between S4 and S5", "tier": "S", "score": 89.7, "score_low": 86.7, "score_high": 92.7, "strength": 1.344, "win_share": 0.765, "boot_same_tier": 1.0}
+{"id": "td816798a", "position": "between S4 and S5", "tier": "S", "score": 89.2, "score_low": 86.2, "score_high": 92.2, "strength": 1.344, "win_share": 0.765, "boot_same_tier": 1.0}
+{"id": "ted929feb", "position": "between S4 and S5", "tier": "S", "score": 88.7, "score_low": 85.7, "score_high": 91.7, "strength": 1.292, "win_share": 0.756, "boot_same_tier": 1.0}
+{"id": "t6ce48b07", "position": "between S4 and S5", "tier": "S", "score": 88.2, "score_low": 85.2, "score_high": 91.2, "strength": 1.045, "win_share": 0.712, "boot_same_tier": 1.0}
+{"id": "t728b4b03", "position": "between S7 and A1 in A", "tier": "A", "score": 77.3, "score_low": 73.4, "score_high": 88.9, "strength": 0.748, "win_share": 0.654, "boot_same_tier": 0.2}
+{"id": "tee211b9a", "position": "between S7 and A1 in A", "tier": "A", "score": 74.4, "score_low": 71.4, "score_high": 87.1, "strength": 0.639, "win_share": 0.632, "boot_same_tier": 0.45}
+{"id": "t3c988896", "position": "between A1 and A2", "tier": "A", "score": 73.9, "score_low": 70.9, "score_high": 84.2, "strength": 0.511, "win_share": 0.606, "boot_same_tier": 0.59}
+{"id": "t0a1b3f2b", "position": "between A1 and A2", "tier": "A", "score": 73.4, "score_low": 70.4, "score_high": 84.2, "strength": 0.301, "win_share": 0.562, "boot_same_tier": 0.76}
+{"id": "t511aa9f7", "position": "between A1 and A2", "tier": "A", "score": 72.9, "score_low": 69.9, "score_high": 84.2, "strength": 0.239, "win_share": 0.549, "boot_same_tier": 0.81}
+{"id": "td83c7b30", "position": "between A1 and A2", "tier": "A", "score": 72.4, "score_low": 69.4, "score_high": 84.2, "strength": 0.177, "win_share": 0.535, "boot_same_tier": 0.83}
+{"id": "t949d0c28", "position": "between A1 and A2", "tier": "A", "score": 72.3, "score_low": 66.4, "score_high": 75.3, "strength": -0.174, "win_share": 0.46, "boot_same_tier": 1.0}
+{"id": "t47e13f42", "position": "between A3 and A4", "tier": "A", "score": 64.8, "score_low": 61.8, "score_high": 72.3, "strength": -0.362, "win_share": 0.421, "boot_same_tier": 1.0}
+{"id": "te0e7d7c7", "position": "between B1 and B2", "tier": "B", "score": 40.5, "score_low": 33.3, "score_high": 54.3, "strength": -0.73, "win_share": 0.346, "boot_same_tier": 0.78}
+{"id": "td5b1c789", "position": "between B1 and B2", "tier": "B", "score": 33.6, "score_low": 30.6, "score_high": 40.9, "strength": -0.844, "win_share": 0.324, "boot_same_tier": 0.97}
+{"id": "tf4ea87ef", "position": "between B2 and B3", "tier": "B", "score": 33.1, "score_low": 23.1, "score_high": 36.1, "strength": -1.393, "win_share": 0.226, "boot_same_tier": 1.0}
+{"id": "t709e8ec1", "position": "between B3 and B4", "tier": "B", "score": 12.2, "score_low": 9.2, "score_high": 17.8, "strength": -1.716, "win_share": 0.178, "boot_same_tier": 1.0}
+{"id": "t2e8079b2", "position": "below B4", "tier": "B", "score": 11.8, "score_low": 8.8, "score_high": 14.8, "strength": -1.813, "win_share": 0.165, "boot_same_tier": 1.0}
