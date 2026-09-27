@@ -153,7 +153,7 @@ labels.csv ─► lib/scale.py ─► labeled_scores.csv (anchored 0–100 scale
      │                                   │
 listening_notes.md ×18 + track_table ─► taste_profile.md (v1) ─► validation/round1 ─► taste_profile.md (v2) ─► validation/round2
                                                                                         │
-tools/PLACEMENT_BRIEF.md + anchors (placement_kit.py) ─► 17 subagents ─► placements/<id>.md
+tools/PLACEMENT_BRIEF.md (side by side vs all 18) ─► 17 subagents ─► placements/<id>.md (+ tiebreaks.md)
                                                                                         │ reviewed, ties broken
                                                          placements/placements.jsonl ─► tools/assemble.py
                                                                                         ├─► predictions.csv
@@ -168,9 +168,9 @@ labeled_scores.csv + predictions.csv ─► tools/plot_scores.py ─► scores.p
 | `labeled_scores.csv` | Anchored scores for the labelled tracks (`lib/scale.py`). |
 | `validation/` | Leave-one-out placement by judgement: `round{1,2}.csv`, metrics from `placement_kit.py score-validation`, and a README with the revision and the leakage disclosure. |
 | `tools/PLACEMENT_BRIEF.md` | The brief each prediction subagent followed (one per unlabelled track). |
-| `placements/<id>.md` | Per-track reasoning: comparisons with the six anchors and the neighbours, why here, uncertainty, and a main-session review line. `placements.jsonl` holds the reviewed final values. |
+| `placements/<id>.md` | Per-track reasoning (pass 2, final): a holistic side-by-side verdict against **all 18** labelled tracks, the flip point, why here, uncertainty, and a main-session review line. `tiebreaks.md` orders tracks that share a slot by pairwise comparison. `placements.jsonl` holds the reviewed final values; `pass2_raw.jsonl` the subagents' raw replies. `pass1/` keeps the earlier anchor-based pass. |
 | `predictions.csv` | id, predicted_tier, estimated_rank_within_tier (among unlabelled tracks in that tier), position, score, 80% range, confidence, top-3 CLAP neighbours, ridge-model tier, two-sentence rationale. |
-| `combined_order.md`, `tiers/` | Labelled and predicted tracks in one order. `tiers/<T>/N - <id>[ (predicted)]` are relative symlinks to the track's MP3 when the audio folders exist (`../labeled`, `../unlabeled` or `blind/…`), otherwise to its packet. Rebuild with `python3 eval/tools/assemble.py eval/placements/placements.jsonl`. |
+| `combined_order.md`, `tiers.txt`, `tiers/` | Labelled and predicted tracks in one order. `tiers/<T>/N - <id>[ (predicted)]` are relative symlinks to the track's MP3 when the audio folders exist (`../labeled`, `../unlabeled` or `blind/…`), otherwise to its packet. Rebuild with `python3 eval/tools/assemble.py eval/placements/placements.jsonl`. |
 | `scores.png` | Every track's score with 80% error bars on the shaded tier bands (`tools/plot_scores.py`). |
 | `report.md` | Plain-language results for the user. |
 

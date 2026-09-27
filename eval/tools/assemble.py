@@ -7,6 +7,7 @@ Input: one JSON line per unlabelled track, as returned by the placement subagent
 Outputs (in eval/):
   predictions.csv       one row per unlabelled track (columns per the brief)
   combined_order.md     labelled + predicted tracks in one order, numbered within each tier
+  tiers.txt             the same order as plain text
   tiers/{S,A,B}/        'N - <id>' relative symlinks (predicted ones 'N - <id> (predicted)'); the
                         target is the track's MP3 when the user's audio folders exist
                         (../labeled/<id>.mp3, ../unlabeled/<id>.mp3 or blind/{labeled,unlabeled}/),
@@ -98,6 +99,12 @@ def main(path: str):
             if x["pred"] else f"labelled {x['label']}"
         lines.append(f"| {x['tier']} | {x['n']} | {x['id']} | {x['score']:.1f} | {status} |")
     (EVAL / "combined_order.md").write_text("\n".join(lines) + "\n")
+
+    txt = ["Tiers in order (1 = top of tier). (predicted) = placed by the model; the others are the user's own ranking."]
+    for t in TIER_ORDER:
+        txt += ["", f"{t} tier:"] + [f"{x['n']} - {x['id']}" + (" (predicted)" if x["pred"] else "")
+                                      for x in items if x["tier"] == t]
+    (EVAL / "tiers.txt").write_text("\n".join(txt) + "\n")
 
     tiers = EVAL / "tiers"
     for t in TIER_ORDER:

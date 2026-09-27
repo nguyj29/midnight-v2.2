@@ -15,3 +15,6 @@ __pycache__/
 
 # Heavy per-track audio stems
 eval/packets/*/stems/
+
+# Local-only Claude Code settings
+.claude/settings.local.json

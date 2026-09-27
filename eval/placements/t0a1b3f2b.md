@@ -1,24 +1,37 @@
-# t0a1b3f2b — predicted between A6 and A7 (A, score 53.9, 80% range 44–64)
+# t0a1b3f2b — predicted between A4 and A5 (A, score 61.1, 80% range 50–71)
 
-**What it sounds like.** A head-nodding, study-playlist-style hip-hop beat: deep rumbling bass, crisp steady drums and warm, slightly wistful keyboard chords. One short, melancholy chord cycle goes round for the whole 2:53, with small dropouts and fills at the section edges. After the beat lands at 0:21 nothing new really happens, and it stops suddenly instead of winding down.
+**What it sounds like.** A head-nodding hip-hop beat of the study-playlist kind: deep rumbling bass, crisp steady drums and warm, slightly wistful keyboard chords. One short, melancholy cycle goes round for the whole three minutes. Small dropouts and a busier stretch of fills and lead snippets around 1:47 stop it going completely flat. It fades in, the beat drops in at 0:21, and it stops dead at 2:53.
 
-**Against the anchors.**
-- **S1 (trance/EDM):** S1 is clearly preferred. Its muffled intro opening into the drop at 0:27, and the happier lift at 1:36, are a real arrival and change. Here the beat drops in at 0:21, but the level then barely moves.
-- **S7 (2 a.m. trip-hop):** S7 is preferred. Both are moody nodding beats, but S7 brightens at 0:54 and falls almost to silence at 1:11 before rebuilding. This track only has one-bar dropouts (1:04, 1:25) in a loud, dense loop, so it is less sparse and less hypnotic.
-- **A1 (anime action rush):** A1 is probably preferred. It is one-level too, but it has a stop-time section at 1:06 and a new chord cycle at 1:48. This track never leaves its four-bar cycle.
-- **A7 (late-night live band):** Close call, with a slight edge to this track. A7 breathes more, with its drumless middle at 1:15, but the user put it last in A. This track's deeper bass and tighter nod sit closer to the beats the user ranked just above A7.
-- **B1 (trailer strings):** This track is preferred. B1's urgent, tense string pulse is the kind of mood the user dislikes. Here the mood is warm and melancholy, and the groove is relaxed.
-- **B4 (sunny focus loop):** This track is clearly preferred. Both loop heavily, but B4 is sweet and pastel with no drums. This one is wistful and has a real beat.
+**Side by side with all 18.**
+| # | track | verdict | why |
+|---|---|---|---|
+| S1 | slick upbeat trance, filtered intro and drop | theirs | S1's drop at 0:27 and happy lift at 1:36 give a real arrival and a journey; this beat's 0:21 entry is a small bump by comparison, and then it stays level. |
+| S2 | cool broken-beat house groove | theirs | Both are cool, loopy grooves, but S2 has a filter sweep into a tight beat and a catchy hook in the middle; this one never adds a hook. |
+| S3 | heavy, sad wall of guitars | theirs | S3's crash-in at 0:21 and its emotional turn at 1:18 have a weight this backdrop beat can't match. |
+| S4 | short, dark, restless breakbeat piece | theirs | S4 packs a drums-only break and a slam back in into under two minutes; this track runs one cycle 16 times. |
+| S5 | calm cinematic string swell | theirs | Both are gentle and moody, but S5 swells to a bright high point at 2:12; this beat's energy barely moves after the first 30 seconds. |
+| S6 | warm, hypnotic downtempo | theirs | Same warm, nodding family, but S6's drumless floating breaks (0:57, 1:53) and bright finale give it the breathing this track lacks. |
+| S7 | sparse 2 a.m. trip-hop | theirs | The nearest cousin, but S7 is sparser and darker, with a shimmering lift at 0:54 and a near-silent drop; this track is denser and stays at one level. |
+| A1 | fast anime-action synth-rock | theirs | Wrong mood for this user, but A1's full-band entry, stop-time section and drop-outs give more excitement and events than this steady loop. |
+| A2 | polished bittersweet club house | theirs | Both loop for a long time, but A2 has a filter intro, a riser breakdown at 2:02 and a catchy hook; this beat has only small edge dropouts. |
+| A3 | slow nodding hip-hop, key-change detour | theirs (lean) | Very close cousins; A3's sudden brighter detour at 1:14 is a real event, while this track's moodier warmth and fills don't add up to one. |
+| A4 | loud fast video-game synth loop | even | A4 has more happening (wailing lead, triumphant lift at 2:09), but this track's melancholy, laid-back mood fits the user better. |
+| A5 | music-box to heroic cinematic climax | even | A5 breathes and lands a big climax at 1:08, but in a melodramatic mood; this track is cooler but has no arrival. |
+| A6 | dusty sample-style hip-hop loop | this | Almost the same recipe, but this one has a fade-in and drop, block-edge dropouts and a fill section where A6 plays three identical rounds and fades. |
+| A7 | relaxed late-night live-band groove | this | A7 breathes more (drumless middle at 1:15), but the user put it below the punchier loop beats, and this track has the deeper bass and harder groove. |
+| B1 | urgent trailer strings | this | B1 is tense and pushy; this track is relaxed and moody, the side of the mood line the user likes. |
+| B2 | dark, sinister pounding rock riff | this | B2 is uneasy and relentless; this track's darkness is wistful, not menacing. |
+| B3 | pastel nostalgic game keys | this | B3 is sweet and swaying; this track's warm, melancholy beat avoids the pastel feel. |
+| B4 | sunny new-age "focus" loop | this | Both are backdrop loops, but B4 is sunny with no drums, while this one has a nodding beat and a moody pull. |
 
-**Against its neighbours.**
-- **A5 (music-box to heroic climax):** A5 is preferred. The drums crashing in after its quiet opening give a real arrival and swell. This track's biggest move is the busier stretch with a short lead line at 1:47.
-- **A6 (dusty three-round loop):** A6 is slightly preferred. They are near twins, but A6's satisfying turn at the end of each round gives the loop some pull, and it is over in under two minutes. This track runs its single cycle for almost three.
-- **A7 (live band groove):** This track is slightly preferred (see above). It is the closest match to the user's other mid-A beats, while A7's looser jazz feel sits at the bottom of the tier.
+**Where it flips.** The verdicts are "theirs" from S1 down through A3 and "this" from A6 to B4, with A4 and A5 as "even" in between. I slot it in the middle of the even block, between A4 and A5. No verdict disagrees with this slot; the two evens (plus the lean on A3) are the uncertainty.
 
-**Why here.** "Hip-hop loop beats sit in the middle" places it firmly in A. It is not sparse or atmospheric enough to reach S the way S7 does. "A loop that never changes → lower A" pushes it toward the bottom: one four-bar cycle 16 times, a loudness range of only 3.8, and no section that departs. The mood helps: it is melancholy and warm, never sweet or tense, which keeps it out of B. On "breathes" and "impact" it scores weakly, with a small beat drop at 0:21 and a few one-bar dropouts but no real contrast moment.
+**Why here.** Overall it is a pleasant, moody loop-beat that works well as background, and that is the user's middle tier. The mood pulls it up: melancholy, warm and nodding sits close to the atmospheric sound the user likes, and nothing in it is sweet or tense. What pulls it down is that one cycle runs the whole way, it has no hook, the level is flat (it barely breathes) and there is no big arrival. Its small dropouts and fill section lift it above the plainest loop (A6), but not past the tracks that have a real event (A3's detour, A2's breakdown).
 
-**Uncertainty.** The main question is how it stands against A6, which is almost the same kind of track. If the user likes the warmer, moodier chords, it could rise to A3–A4 level (around 64). If the length and sameness wear on them, it could drop just below A7 or into the top of B (around 44). Confidence is medium.
+**Uncertainty.** If the user hears the mood as immersive in the way S7 is, it could climb toward the top of A (around 70). If the unchanging cycle and the sudden stop read as samey, it drops to A6/A7 level (around 52), or just into B. It is unlikely to reach S, because it has neither an arrival nor any breathing room.
 
-**Rationale (two sentences).** A warm, melancholy study-style hip-hop beat, closest in kind to A6 and A3, which puts it in the middle tier for loop beats rather than with the sparse, atmospheric S7. Its single four-bar cycle runs almost three minutes with only small dropouts and no real arrival or change, so it sits at the low end of A, just below its near twin A6.
+**Rationale (two sentences).** A warm, melancholy lo-fi hip-hop loop whose mood suits the user's taste for cool, nodding atmospherics, but it runs one short cycle at one level for three minutes, with no hook, no big arrival and no real breakdown. Side by side it loses to every S track and to the busier A tracks (A1–A3), ties with A4 and A5, and beats the plainer loop beats (A6, A7) and all of B, so it sits mid-A.
 
-**Review (main session).** Checked against the taste profile and the anchors' notes; the neighbour verdicts match the slot (the track above is preferred, the one below isn't). Where other unlabelled tracks share this slot, the order inside it comes from side-by-side comparisons (`tiebreaks.md`). Final: between A6 and A7, score 53.9, 80% range 44–64.
+**Review (main session).** Verdict table checked: it flips once down the user's order, and the slot sits at the flip. Where another unlabelled track shares the slot, or the score tied a labelled track, the order comes from side-by-side comparisons (`tiebreaks.md`). Final: between A4 and A5, score 61.1, 80% range 50–71.
+
+**Calibrated (final).** This file's slot is the raw side-by-side result. The side-by-side order of all 17 is kept, and positions are re-spread to match the user's own 18 (random 50/50 split; see `report.md`). Final: between A3 and A4 (A), score 64.6, 80% range 53.5–74.5.
